@@ -302,6 +302,7 @@ h6 {
   line-height: inherit; }
 
 h1 {
+  color: red; 
   border-bottom: 1px solid rgba(0, 0, 0, 0.12);
   font-size: 36px;
   font-weight: 500;
