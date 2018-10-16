@@ -313,6 +313,12 @@ h1 {
   margin: 20px 0 16px;
   text-align: center; }
 
+.header-img {
+  height: 150px;
+  weight: 200px;
+  margin: 0 auto;
+}
+
 h2 {
   font-size: 30px;
   font-weight: 500;
