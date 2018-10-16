@@ -317,6 +317,7 @@ h1 {
 
 .header-img {
   display: inline-block;
+  height: 80px;
   background: orange;
 }
 
