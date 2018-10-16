@@ -315,10 +315,13 @@ h1 {
 
 .parent {text-align: center;}
 
-.header-img {
+.header-wrapper {
   display: inline-block;
   height: 80px;
   background: orange;
+}
+.header-wrapper image {
+  height: 100%;
 }
 
 h2 {
