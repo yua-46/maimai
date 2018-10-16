@@ -320,9 +320,18 @@ h1 {
   height: 80px;
   background: orange;
 }
-.header-wrapper image {
-  height: 100%;
+
+/* 画像サイズ調整のための仕掛け */
+.size-adjust img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: none;
+    height: 100%;
+    visibility: hidden;
+    opacity: 0;
 }
+
 
 h2 {
   font-size: 30px;
