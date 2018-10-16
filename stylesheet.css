@@ -316,8 +316,8 @@ h1 {
 .parent {text-align: center;}
 
 .header-wrapper img{
-  width: 1200px;
-  height: 800px;
+  width: 800px;
+  height: auto;
   
 }
 
