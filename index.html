@@ -43,6 +43,49 @@ function imgTimer() {
 console.log('GitHub Pages Sample');
   
 </script>
+	
+<script src="//lcns2.sugutsukaeru.jp/c803d429b782f84/4.9/a4b94adbcbff24406a11ec647abba536/js/jquery-1_11_3-min.js" type="text/javascript"></script>
+<script type="text/javascript">
+function size_adjust(myImg, thumbW){
+    if (myImg.prop("complete") && myImg.prop("naturalWidth")){
+        /* サイズ調整 */
+        var heightOrg = myImg.height();
+        if (thumbW > 0 && thumbW > myImg.width()){
+            var NewHeight = Math.ceil(myImg.height()*thumbW/myImg.width());
+            myImg.css("height", NewHeight+"px");
+            myImg.css("width", thumbW+"px");
+        }
+        /* 位置調整 */
+        if(myImg.height()>=myImg.width()){ //portrait
+            var myOffsetHeight=(myImg.height()-heightOrg)/2;
+            if (myOffsetHeight>1){
+            myImg.css("top", "-"+Math.floor(myOffsetHeight)+"px");
+            }
+        } else if (myImg.height()<myImg.width()){ //landscape
+            var myOffsetWdith=(myImg.width()-thumbW)/2;
+            myImg.css("left", "-"+Math.floor(myOffsetWdith)+"px");
+        }
+        myImg.css("visibility", "visible")
+            .animate({opacity: 1}, 1000)
+            ;
+    } else {
+        setTimeout(function(){
+            size_adjust(myImg, thumbW);
+        }, 400);
+    }
+}
+$(document).ready(function(){
+    /* 画像のサイズ調整 */
+    $('.size-adjust').each(function(){
+        if (0 < $("img", this).length){ 
+             size_adjust($("img", this), $(this).width());
+        } else {
+            $(this).css("background-image", "url(./parts/img/noimage.png)");
+        }
+    });
+});
+</script>	
+	
 </body>
 </html>
 
