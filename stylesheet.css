@@ -332,6 +332,17 @@ h1 {
     opacity: 0;
 }
 
+.mainimage {
+    position: relative;
+    width: 240px; /* 画像の幅 */
+    height: 180px; /* 画像の高さ */
+    margin: 0 0 9px 0;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-color: #999;
+    overflow: hidden;
+}
+
 
 h2 {
   font-size: 30px;
