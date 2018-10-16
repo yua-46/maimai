@@ -313,9 +313,11 @@ h1 {
   margin: 20px 0 16px;
   text-align: center; }
 
+.parent {text-align: center;}
+
 .header-img {
-  text-align:center
-    width: 100%;
+  display: inline-block;
+  width: 100px;
   background: orange;
 }
 
