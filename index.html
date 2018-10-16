@@ -13,11 +13,9 @@
   <h1>テレビ、ラジオで話題のお好み焼き屋!</h1>
 
 <img src="ita.gif" name="sushi">
-<div id="comment"></div> //*1
 
 <script type="text/javascript">
 img = new Array("https://i.gyazo.com/4df5c08abeed15372230caf8c170727f.jpg","https://i.gyazo.com/07a290a23481bb7e320cf1b1aa8ec672.jpg","https://i.gyazo.com/a6dfbc582618127ad18ac06275a880e7.jpg"); //*1
-com = new Array("お好み焼きみゆき"); //*2
 count = -1; //*2
 imgTimer();
 
@@ -28,8 +26,6 @@ function imgTimer() {
 	if (count == img.length) count = 0; //*4
 	//画像出力
 	document.sushi.src = img[count]; //*2
-	//コメント出力
-	document.getElementById("comment").innerHTML = com[count]; //*3
 	//次のタイマー呼びだし
 	setTimeout("imgTimer()",10000); //*10
 }
