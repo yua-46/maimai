@@ -334,8 +334,8 @@ h1 {
 
 .main-thumbnail {
     position: relative;
-    width: 100px; /* 画像の幅 */
-    height: 100px; /* 画像の高さ */
+    width: 50px; /* 画像の幅 */
+    height: 50px; /* 画像の高さ */
     display: inline-block;
     background-position: 50% 50%;
     background-repeat: no-repeat;
