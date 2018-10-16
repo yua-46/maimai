@@ -316,26 +316,6 @@ h1 {
 .parent {text-align: center;}
 
 
-/* 画像サイズ調整のための仕掛け */
-.size-adjust img {
-    position: absolute;
-    left: 0;
-    top: 0;
-    border: none;
-    height: 50px;
-    visibility: hidden;
-    opacity: 0;
-}
-
-.main-thumbnail {
-    position: relative;
-    width: 50px; /* 画像の幅 */
-    height: 50px; /* 画像の高さ */
-    display: inline-block;
-    background-color: #999;
-    overflow: hidden;
-}
-
 
 h2 {
   font-size: 30px;
