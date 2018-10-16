@@ -315,11 +315,6 @@ h1 {
 
 .parent {text-align: center;}
 
-.header-wrapper {
-  display: inline-block;
-  height: 80px;
-  background: orange;
-}
 
 /* 画像サイズ調整のための仕掛け */
 .size-adjust img {
@@ -337,8 +332,6 @@ h1 {
     width: 50px; /* 画像の幅 */
     height: 50px; /* 画像の高さ */
     display: inline-block;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
     background-color: #999;
     overflow: hidden;
 }
