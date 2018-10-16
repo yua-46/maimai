@@ -316,7 +316,7 @@ h1 {
 .header-img {
   text-align:center
   margin: 10px auto;
-  width: 2000px;
+  width: 100%;
   background: orange;
 }
 
