@@ -30,7 +30,7 @@ h1 {
   height: auto;
   
 }
-img.gaiyou_btn:hover{
+.gaiyou_btn:hover{
  
 	/* 透明度を上げることで、画像の色を薄く見せる。*/
 	opacity:0.5;
@@ -40,7 +40,7 @@ img.gaiyou_btn:hover{
 }
  
 /* gaiyou画像をクリックした瞬間 */
-img.gaiyou_btn:active{
+.gaiyou_btn:active{
  
 	/* 要素を若干下に下げることで、押した感じを出す。*/
  
