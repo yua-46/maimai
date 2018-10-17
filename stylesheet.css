@@ -30,9 +30,24 @@ h1 {
   height: auto;
   
 }
-.gaiyou_btn {
-  margin: 200px 200px;
-  font-size: 20px;
+img.gaiyou_btn:hover{
+ 
+	/* 透明度を上げることで、画像の色を薄く見せる。*/
+	opacity:0.5;
+ 
+	/* リンクをホバーしたときのカーソルにする。*/
+	cursor: pointer;
+}
+ 
+/* gaiyou画像をクリックした瞬間 */
+img.gaiyou_btn:active{
+ 
+	/* 要素を若干下に下げることで、押した感じを出す。*/
+ 
+	/* 今いる位置から相対的に3px下に配置する。*/
+	position: relative;
+	top: 3px;
+ 
 }
 
 
