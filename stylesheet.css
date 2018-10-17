@@ -36,10 +36,9 @@ h1 {
   margin: 20px 0 16px;
   text-align: center; }
 
-.parent {text-align: center;}
-
 .header-wrapper img{
-  width: 800px;
+  text-align: center;
+  width: 300px;
   height: auto;
   
 }
