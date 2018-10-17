@@ -37,9 +37,9 @@ h1 {
   text-align: center; }
 
 .header-wrapper img{
- 
-  width: 300px;
-  height: auto;
+  margin: 0 auto;
+  width: 1200px;
+  height: 800px;
   
 }
 
