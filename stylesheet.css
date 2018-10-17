@@ -24,11 +24,10 @@ h1 {
   text-align: center; }
 
 .parents {
-  margin: 0 auto;
+ 
 }
 
-.header-wrapper {
-  text-align: center;
+.header-wrapper img{
   width: 1200px;
   height: 800px;
   
