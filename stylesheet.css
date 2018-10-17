@@ -37,7 +37,7 @@ h1 {
   text-align: center; }
 
 .header-wrapper img{
-  text-align: center;
+  margin: 0 auto;
   width: 800px;
   height: 500px;
   
