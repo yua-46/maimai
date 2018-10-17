@@ -10,8 +10,7 @@ body {
   font-size: 16px;
   line-height: 1.4;
   background-image:url(https://i.gyazo.com/2b675f1dd05f99431bb926e3dcef27fd.gif);
-  background-position: center center;
-  background-repeat: no-repeat;}
+  background-size: cover;}
 
 
 h1 {
