@@ -30,6 +30,9 @@ h1 {
   height: auto;
   
 }
+.gaiyou_btn {
+	margin: 100px 100px;
+}
 .gaiyou_btn:hover{
  
 	/* 透明度を上げることで、画像の色を薄く見せる。*/
