@@ -10,7 +10,8 @@ body {
   font-size: 16px;
   line-height: 1.4;
   background-image:url(https://i.gyazo.com/2b675f1dd05f99431bb926e3dcef27fd.gif);
-  background-size: cover;}
+  background-size: cover;
+}
 
 
 h1 {
@@ -26,10 +27,11 @@ h1 {
 }
 
 .header-wrapper img{
-  width: 800px;
-  height: auto;
-  
+  width: 300px;
+  height: auto;  
 }
+
+/*本題*/
 .gaiyou_btn {
 	margin: 100px 100px;
 }
