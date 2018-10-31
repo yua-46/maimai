@@ -27,9 +27,9 @@ h1 {
   margin: o auto;
   background-color:yellow;
 }*/
-.header-img {
+.gazou {
   width: 800px;
-  height: 400px;
+  height: auto;
   background-color: pink;
 }
 
