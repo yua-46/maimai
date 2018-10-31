@@ -23,9 +23,7 @@ h1 {
   text-align: center; }
 
 .header-img {
-  text-align: center;
-}
-.img-three {
+  margin: 0 auto;
   width: 800px;
   height: auto;
   background-color: pink;
