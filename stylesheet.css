@@ -22,8 +22,11 @@ h1 {
   margin: 20px 0 16px;
   text-align: center; }
 
-.header-img {
+.parents {
   margin: 0 auto;
+}
+
+.header-img {
   width: 800px;
   height: auto;
   background-color: pink;
