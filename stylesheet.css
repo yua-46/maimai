@@ -24,12 +24,10 @@ h1 {
 
 .parents {
  text-align: center;
+ width: 800px;
+  height: auto;
 }
 
-.sushi{
-  width: 800px;
-  height: auto;  
-}
 
 /*本題*/
 .gaiyou_btn {
