@@ -13,11 +13,13 @@ body {
   background-size: cover;
 }
 
+/*ここからヘッダー*/
 header {
   width: 800px;
   height: auto;
   background-color:yellow;
 }
+/*ここまでヘッダー*/
 
 h1 {
   color: red; 
@@ -29,7 +31,7 @@ h1 {
 }
 
 .wrapper {
-  margin: 0 auto;
+  text-align: center;
 }
 .header-img {
   width: 800px;
@@ -46,9 +48,10 @@ h1 {
   height: 600px;
 }
 
-
+/*ここからフッター*/
 footer {
   width: 100%;
   height: 78px;
   background-color:yellow;
 }
+/*ここまでフッター*/
