@@ -23,10 +23,9 @@ h1 {
   text-align: center; 
 }
 
-/*.parents{
-  margin: o auto;
-  background-color:yellow;
-}*/
+.wrapper {
+  margin: 0 auto;
+}
 .gazou {
   width: 800px;
   height: auto;
