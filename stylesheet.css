@@ -36,9 +36,9 @@ h1 {
 
 /*本題*/
 .container {
-  border-line: 5px;
+  border-bottom: 1px solid blueviolet;
   background-color:pink;
-  width: 400px;
-  height: 900px;
+  width: 800px;
+  height: 600px;
 }
 
