@@ -89,7 +89,9 @@ header {
 /*ここまでヘッダー*/
 
 .wrapper {
-  
+  width: 960px;
+  height: auto;
+  margin: 0 auto;
 }
 
 h1 {
