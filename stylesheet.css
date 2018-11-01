@@ -76,7 +76,6 @@ body {
   color: rgba(0, 0, 0, 0.8);
   font-family: "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
   font-size: 16px;
-  line-height: 1.4;
  /* background-image:url(https://i.gyazo.com/2b675f1dd05f99431bb926e3dcef27fd.gif);
   background-size: cover;*/
 }
@@ -89,6 +88,10 @@ header {
 }
 /*ここまでヘッダー*/
 
+.wrapper {
+  
+}
+
 h1 {
   color: red; 
   border-bottom: 1px solid rgba(0, 0, 0, 0.12);
@@ -97,9 +100,7 @@ h1 {
   text-align: center; 
 }
 
-.wrapper {
-  margin: 0 auto;
-}
+
 .header-img {
   width: 800px;
   height: auto;
