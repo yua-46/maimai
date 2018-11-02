@@ -125,6 +125,7 @@ h1 {
   background-color: red;
   width: 200px;
   height: 200px;
+  float :left;
 }
 .menyu {
   border: 3px solid blueviolet;
