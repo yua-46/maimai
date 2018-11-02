@@ -131,18 +131,21 @@ h1 {
   background-color: red;
   width: 200px;
   height: 200px;
+  float: left;
 }
 .tennpo {
   border: 3px solid blueviolet;
   background-color: red;
   width: 200px;
   height: 200px;
+  float :left;
 }
 .sonohoka {
   border: 3px solid blueviolet;
   background-color: red;
   width: 200px;
   height: 200px;
+  float :left;
 }
 /* ========================================
 	ここまで本題
