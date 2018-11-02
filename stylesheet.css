@@ -113,10 +113,16 @@ h1 {
 
 /*本題*/
 .container {
-  border: 3px solid blueviolet;
   background-color:pink;
   width: 800px;
   height: 600px;
+}
+
+.gaiyou {
+  border: 3px solid blueviolet;
+  background-color: red;
+  width: 30px;
+  height: 30px;
 }
 
 /*ここからフッター*/
