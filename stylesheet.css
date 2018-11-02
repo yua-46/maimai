@@ -127,6 +127,7 @@ h1 {
   height: 220px;
   float :left;
   margin-left: 116px;
+  margin-top: 49px;
 }
 .menyu {
   border: 3px solid blueviolet;
@@ -135,6 +136,7 @@ h1 {
   height: 220px;
   float: left;
   margin-left: 116px;
+  margin-top: 49px;
 }
 .tennpo {
   border: 3px solid blueviolet;
@@ -143,6 +145,7 @@ h1 {
   height: 220px;
   float :left;
   margin-left: 116px;
+  margin-top: 49px;
 }
 .sonohoka {
   border: 3px solid blueviolet;
@@ -151,6 +154,7 @@ h1 {
   height: 220px;
   float :left;
   margin-left: 116px;
+  margin-top: 49px;
 }
 /* ========================================
 	ここまで本題
