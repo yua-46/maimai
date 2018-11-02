@@ -92,6 +92,7 @@ header {
   width: 800px;
   height: 50px;
   background-color:yellow;
+  margin: 0 auto;
 }
 /*ここまでヘッダー*/
 
@@ -100,7 +101,7 @@ h1 {
   color: red; 
   font-size: 36px;
   text-align: center;
-  padding-top: 5px; 
+  
 }
 
 
