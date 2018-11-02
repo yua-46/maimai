@@ -134,6 +134,11 @@ h1 {
   height: 200px;
   float: left;
 }
+
+.clear {
+  clear: left;
+}
+
 .tennpo {
   border: 3px solid blueviolet;
   background-color: red;
