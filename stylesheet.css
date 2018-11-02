@@ -111,7 +111,9 @@ h1 {
 }
 
 
-/*本題*/
+/* ========================================
+	ここから本題
+========================================= */
 .container {
   background-color:pink;
   width: 800px;
@@ -124,6 +126,27 @@ h1 {
   width: 200px;
   height: 200px;
 }
+.menyu {
+  border: 3px solid blueviolet;
+  background-color: red;
+  width: 200px;
+  height: 200px;
+}
+.tennpo {
+  border: 3px solid blueviolet;
+  background-color: red;
+  width: 200px;
+  height: 200px;
+}
+.sonohoka {
+  border: 3px solid blueviolet;
+  background-color: red;
+  width: 200px;
+  height: 200px;
+}
+/* ========================================
+	ここまで本題
+========================================= */
 
 /*ここからフッター*/
 footer {
