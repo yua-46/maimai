@@ -118,7 +118,6 @@ h1 {
   background-color:pink;
   width: 800px;
   height: 600px;
-  padding-left: 50px;
 }
 
 .gaiyou {
@@ -127,6 +126,7 @@ h1 {
   width: 220px;
   height: 220px;
   float :left;
+  margin-left: 50px;
 }
 .menyu {
   border: 3px solid blueviolet;
