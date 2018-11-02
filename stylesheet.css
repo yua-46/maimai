@@ -134,6 +134,7 @@ h1 {
   width: 220px;
   height: 220px;
   float: left;
+  margin-left: 50px;
 }
 .tennpo {
   border: 3px solid blueviolet;
