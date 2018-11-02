@@ -107,7 +107,7 @@ h1 {
 .header-img {
   width: 800px;
   height: 500px;
-  background-color: rgb(207, 8, 42);
+  /*background-color: rgb(207, 8, 42);*/
 }
 
 
@@ -118,7 +118,6 @@ h1 {
   background-color:pink;
   width: 800px;
   height: 600px;
-  font-size: 20px;
 }
 
 .gaiyou {
@@ -129,6 +128,7 @@ h1 {
   float :left;
   margin-left: 116px;
   margin-top: 49px;
+  font-size: 20px;
 }
 .menyu {
   border: 3px solid blueviolet;
