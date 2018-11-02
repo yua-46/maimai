@@ -92,7 +92,6 @@ header {
   width: 800px;
   height: 50px;
   background-color:yellow;
-  margin: 0 auto;
 }
 /*ここまでヘッダー*/
 
@@ -101,7 +100,7 @@ h1 {
   color: red; 
   font-size: 36px;
   text-align: center;
-  
+  padding-top: 7px;
 }
 
 
@@ -122,8 +121,8 @@ h1 {
 .gaiyou {
   border: 3px solid blueviolet;
   background-color: red;
-  width: 30px;
-  height: 30px;
+  width: 100px;
+  height: 100px;
 }
 
 /*ここからフッター*/
