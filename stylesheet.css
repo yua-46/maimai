@@ -82,7 +82,7 @@ body {
 }*/
 
 .wrapper {
-  width: 1500px;
+  width: 800px;
   height: auto;
   margin: 0 auto;
 }
@@ -112,7 +112,7 @@ h1 {
 
 /*本題*/
 .container {
-  border: 2px solid blueviolet;
+  border: 3px solid blueviolet;
   background-color:pink;
   width: 800px;
   height: 600px;
