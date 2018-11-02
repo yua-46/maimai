@@ -142,6 +142,7 @@ h1 {
   width: 220px;
   height: 220px;
   float :left;
+  margin-left: 50px;
 }
 .sonohoka {
   border: 3px solid blueviolet;
@@ -149,6 +150,7 @@ h1 {
   width: 220px;
   height: 220px;
   float :left;
+  margin-left: 50px;
 }
 /* ========================================
 	ここまで本題
