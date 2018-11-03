@@ -83,7 +83,7 @@ body {
 
 .wrapper {
   width: 800px;
-  height: 1250px;
+  height: auto;
   margin: 0 auto;
 }
 
@@ -106,7 +106,7 @@ h1 {
 
 .header-img {
   width: 800px;
-  height: 600px;
+  height: 400px;
   background-color: rgb(207, 8, 42);
 }
 
