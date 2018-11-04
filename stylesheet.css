@@ -122,7 +122,7 @@ h1 {
 
 .gaiyou {
   border: 3px solid blueviolet;
-  /*background-color: red;*/
+  background-color: red;
   width: 220px;
   height: 220px;
   float :left;
