@@ -130,6 +130,7 @@ h1 {
   margin-top: 49px;
   font-size: 20px;
   background-image:url(https://i.gyazo.com/fc4d046efdff455d96e4d8b8888f5f5e.png);
+  border-radius: 10px;
 }
 .menyu {
   border: 3px solid blueviolet;
