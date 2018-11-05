@@ -107,8 +107,8 @@ h1 {
 .gaiyou {
    float: left;
    position: absolute;
-   left: 30px;
-   top: 60px;
+   right: 30px;
+   bottom: 60px;
    font-size: 20px; 
 }
 .menyu {
