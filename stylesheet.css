@@ -82,8 +82,8 @@ body {
 }
 
 .wrapper {
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 2500px;
   margin: 0 auto;
 }
 
