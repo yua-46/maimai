@@ -104,12 +104,16 @@ h1 {
   left: 17px;
   top: 10px;
 }
+.header-btn {
+  background-color: aqua;
+}
 .gaiyou {
    float: right;
    position: absolute;
    right: 200px;
    bottom: 30px;
    font-size: 20px; 
+   color: brown;
 }
 .menyu {
   float: right;
