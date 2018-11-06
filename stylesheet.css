@@ -111,23 +111,23 @@ h1 {
 .gaiyou {
    float: right;
    position: absolute;
-   right: 200px;
-   bottom: 30px;
+   /*right: 200px;
+   bottom: 30px;*/
    font-size: 20px; 
    color: brown;
 }
 .menyu {
   float: right;
   position: absolute;
-  right: 90px;
-  bottom: 30px;
+  /*right: 90px;
+  bottom: 30px;*/
   font-size: 20px; 
 }
 .tennpo {
   float: right;
   position: absolute;
-  right: 30px;
-  bottom: 30px;
+  /*right: 30px;
+  bottom: 30px;*/
   font-size: 20px; 
 }
 
