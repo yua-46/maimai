@@ -118,15 +118,15 @@ h1 {
 }
 .menyu {
   float: right;
-  position: absolute;
-  /*right: 90px;
+  /*position: absolute;
+  right: 90px;
   bottom: 30px;*/
   font-size: 20px; 
 }
 .tennpo {
   float: right;
-  position: absolute;
-  /*right: 30px;
+  /*position: absolute;
+  right: 30px;
   bottom: 30px;*/
   font-size: 20px; 
 }
