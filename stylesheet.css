@@ -107,6 +107,7 @@ h1 {
 .header-btn {
   background-color: aqua;
   float: left;
+  margin: 0 auto;
   z-index: 10;
 }
 .gaiyou {
