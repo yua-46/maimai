@@ -109,7 +109,7 @@ h1 {
   z-index: 10;
 }
 .gaiyou {
-   float: right;
+   text-align: center;
    /*position: absolute;
    right: 200px;
    bottom: 30px;*/
@@ -117,14 +117,14 @@ h1 {
    color: brown;
 }
 .menyu {
-  float: right;
+  text-align: center;
   /*position: absolute;
   right: 90px;
   bottom: 30px;*/
   font-size: 20px; 
 }
 .tennpo {
-  float: right;
+  text-align: center;
   /*position: absolute;
   right: 30px;
   bottom: 30px;*/
