@@ -106,19 +106,22 @@ h1 {
 }
 .header-btn {
   background-color: aqua;
-  display: inline-block;
   text-align: center;
   z-index: 10;
 }
 .gaiyou {
    float:left;
-   position: absolute;
-   bottom: 30px;
+   display: inline-block;
+   width: 100px;
+   /*position: absolute;
+   bottom: 30px;*/
    font-size: 20px; 
    color: brown;
 }
 .menyu {
   float:left;
+  display: inline-block;
+  width: 100px;
   /*position: absolute;
   right: 90px;
   bottom: 30px;*/
@@ -126,6 +129,8 @@ h1 {
 }
 .tennpo {
   float:left;
+  display: inline-block;
+  width: 100px;
   /*position: absolute;
   right: 30px;
   bottom: 30px;*/
