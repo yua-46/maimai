@@ -155,9 +155,9 @@ h1 {
 .imges {
   width: 600px;
   height: 400px;
-  float: right;
   position: absolute;
   top: 30px;
+  right: 30px;
 }
 
 /* ========================================
