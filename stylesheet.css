@@ -110,7 +110,6 @@ h1 {
   z-index: 10;
 }
 .gaiyou {
-   float:left;
    display: inline-block;
    width: 100px;
    /*position: absolute;
@@ -119,7 +118,6 @@ h1 {
    color: brown;
 }
 .menyu {
-  float:left;
   display: inline-block;
   width: 100px;
   /*position: absolute;
@@ -128,7 +126,6 @@ h1 {
   font-size: 20px; 
 }
 .tennpo {
-  float:left;
   display: inline-block;
   width: 100px;
   /*position: absolute;
