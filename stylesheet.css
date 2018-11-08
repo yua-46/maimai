@@ -106,7 +106,8 @@ h1 {
 }
 .header-btn {
   background-color: aqua;
-  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
   position: absolute;
   z-index: 10;
 }
