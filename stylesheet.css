@@ -120,6 +120,7 @@ h1 {
 .menyu {
   display: inline-block;
   width: 100px;
+  margin-left: 10px;
   /*position: absolute;
   right: 90px;
   bottom: 30px;*/
@@ -128,6 +129,7 @@ h1 {
 .tennpo {
   display: inline-block;
   width: 100px;
+  margin-left: 10px;
   /*position: absolute;
   right: 30px;
   bottom: 30px;*/
