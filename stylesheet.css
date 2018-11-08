@@ -112,6 +112,7 @@ h1 {
 .gaiyou {
    display: inline-block;
    width: 100px;
+   line-height: 100px;
    /*position: absolute;
    bottom: 30px;*/
    font-size: 20px; 
@@ -121,6 +122,7 @@ h1 {
   display: inline-block;
   width: 100px;
   margin-left: 20px;
+  line-height: 100px;
   /*position: absolute;
   right: 90px;
   bottom: 30px;*/
@@ -130,6 +132,7 @@ h1 {
   display: inline-block;
   width: 100px;
   margin-left: 20px;
+  line-height: 100px;
   /*position: absolute;
   right: 30px;
   bottom: 30px;*/
