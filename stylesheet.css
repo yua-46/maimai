@@ -110,8 +110,8 @@ h1 {
   height: 40px;
   text-align: center;
   position: relative;
-  margin-left: 50%;
-  margin-right: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .gaiyou {
    float: left;
