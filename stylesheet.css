@@ -108,20 +108,18 @@ h1 {
 .header-btn {
   background-color: aqua;
   height: 40px;
-  margin: 0 auto;
+  text-align: center;
   position: relative;
 }
 .gaiyou {
-   /*display: inline-block;
-   width: 100px;*/
-   float: left;
+   display: inline-block;
+   width: 100px;
    font-size: 20px; 
    color: brown;
 }
 .menyu {
-  /*display: inline-block;
-  width: 100px;*/
-  float: left;
+  display: inline-block;
+  width: 100px;
   margin-left: 30px;
   font-size: 20px; 
 }
