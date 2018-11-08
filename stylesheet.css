@@ -109,17 +109,16 @@ h1 {
   background-color: aqua;
   height: 40px;
   text-align: center;
+  display: inline-block;
   position: relative;
 }
 .gaiyou {
-   display: inline-block;
-   width: 100px;
+   float: left;
    font-size: 20px; 
    color: brown;
 }
 .menyu {
-  display: inline-block;
-  width: 100px;
+  float: left;
   margin-left: 30px;
   font-size: 20px; 
 }
