@@ -111,10 +111,11 @@ h1 {
   height: 40px;
   text-align: center;
   position: relative;
-  margin-left: 10px;
 }
 .gaiyou {
    float: left;
+   position: absolute;
+   left :50px;
    font-size: 30px; 
    color: brown;
 }
