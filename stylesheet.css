@@ -127,9 +127,9 @@ h1 {
   font-size: 30px; 
 }
 .tennpo {
-  /*display: inline-block;
-  width: 100px;*/
   float: left;
+  position: absolute;
+  left :200px;
   margin-left: 30px;
   font-size: 30px; 
 }
