@@ -82,7 +82,7 @@ body {
 }
 
 .wrapper {
-  width: auto;
+  width: 1000px;
   height: 2500px;
   margin: 0 auto;
 }
@@ -107,11 +107,10 @@ h1 {
 
 .header-btn {
   background-color: aqua;
+  width: 1000px;
   height: 40px;
   text-align: center;
   position: relative;
-  margin-left: auto;
-  margin-right: auto;
 }
 .gaiyou {
    float: left;
@@ -136,7 +135,7 @@ h1 {
 ========================================= */
 
 .header-img {
-  width: 100%;
+  width: 1000px;
   height: 800px;
   background-color: rgb(207, 8, 42);
 }
@@ -147,13 +146,13 @@ h1 {
 ========================================= */
 .container {
   /*background-color:pink;*/
-  width: 100%;
+  width: 1000px;
   height: 1500px;
   position: relative;
 }
 .imges {
-  width: 600px;
-  height: 400px;
+  width: 500px;
+  height: 300px;
   position: absolute;
   top: 30px;
   right: 30px;
