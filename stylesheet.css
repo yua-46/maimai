@@ -112,22 +112,20 @@ h1 {
   position: relative;
 }
 .gaiyou {
-   display: inline-block;
-   width: 100px;
+   /*display: inline-block;
+   width: 100px;*/
    font-size: 20px; 
    color: brown;
-   position: absolute;
-   top: 5px;
 }
 .menyu {
-  display: inline-block;
-  width: 100px;
+  /*display: inline-block;
+  width: 100px;*/
   margin-left: 30px;
   font-size: 20px; 
 }
 .tennpo {
-  display: inline-block;
-  width: 100px;
+  /*display: inline-block;
+  width: 100px;*/
   margin-left: 30px;
   font-size: 20px; 
 }
