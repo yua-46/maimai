@@ -148,14 +148,13 @@ h1 {
   /*background-color:pink;*/
   width: 1000px;
   height: 1500px;
-  position: relative;
+  color: white;
 }
 .imges {
   width: 500px;
   height: 300px;
-  position: absolute;
-  top: 30px;
-  right: 30px;
+  margin-right: 50px;
+  margin-top: 30px;
 }
 h2 {
   color: black;
