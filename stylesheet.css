@@ -112,6 +112,7 @@ h1 {
   text-align: center;
   position: relative;
   position: fixed;
+  top:  0;
 }
 .gaiyou {
    float: left;
