@@ -124,6 +124,7 @@ h1 {
   float: left;
   position: absolute;
   left :  420px;
+  top: 5px;
   font-size: 30px;
   color: brown; 
 }
@@ -131,6 +132,7 @@ h1 {
   float: left;
   position: absolute;
   left : 650px;
+  top: 5px;
   font-size: 30px;
   color: brown; 
 }
