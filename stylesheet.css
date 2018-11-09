@@ -116,13 +116,14 @@ h1 {
    float: left;
    position: absolute;
    left :300px;
+   top: 5px;
    font-size: 30px; 
    color: brown;
 }
 .menyu {
   float: left;
   position: absolute;
-  left :  430px;
+  left :  420px;
   font-size: 30px;
   color: brown; 
 }
