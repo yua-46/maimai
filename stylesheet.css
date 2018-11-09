@@ -105,7 +105,24 @@ h1 {
   left: 17px;
   top: 10px;
 }
+.niwase{
+  color:  #aca58f;
+  font-size: 14px;
+  position: absolute;
+  left: 17px;
+  top: 10px;
+}
+.hirahuku{
+  color:  #aca58f;
+  font-size: 14px;
+  position: absolute;
+  left: 17px;
+  top: 10px;
+}
 
+/* ========================================
+	ここまでヘッダー
+========================================= */
 .header-btn {
   background-image:url(https://i.gyazo.com/thumb/1000/5fc4fcbd4f7b9f19c2165955fbe599ea-jpg.jpg);
   width: 1000px;
@@ -141,9 +158,7 @@ h1 {
   text-decoration:none;
 }
 
-/* ========================================
-	ここまでヘッダー
-========================================= */
+
 
 .header-img {
   width: 1000px;
