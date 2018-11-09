@@ -115,14 +115,14 @@ h1 {
 .gaiyou {
    float: left;
    position: absolute;
-   left :50px;
+   left :200px;
    font-size: 30px; 
    color: brown;
 }
 .menyu {
   float: left;
   position: absolute;
-  left :300px;
+  left :350px;
   margin-left: 30px;
   font-size: 30px;
   color: brown; 
@@ -130,7 +130,7 @@ h1 {
 .tennpo {
   float: left;
   position: absolute;
-  left : 700px;
+  left : 600px;
   margin-left: 30px;
   font-size: 30px;
   color: brown; 
