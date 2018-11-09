@@ -105,19 +105,19 @@ h1 {
   left: 17px;
   top: 10px;
 }
-.niwase{
+.niwase {
   color:  #aca58f;
   font-size: 14px;
   position: absolute;
-  left: 17px;
+  right: 17px;
   top: 10px;
 }
-.hirahuku{
+.hirahuku {
   color:  #aca58f;
   font-size: 14px;
   position: absolute;
-  left: 17px;
-  top: 10px;
+  right: 17px;
+  top: 25px;
 }
 
 /* ========================================
