@@ -148,6 +148,7 @@ h1 {
   font-size: 30px;
   color: brown; 
   text-decoration:none;
+  font: normal normal "Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W4", Osaka, sans-serif;
 }
 .tennpo {
   float: left;
