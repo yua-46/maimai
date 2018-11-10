@@ -181,7 +181,7 @@ h1 {
   width: 400px;
   height: 300px;
   position: absolute;
-  top: 50px;
+  top: 40px;
   right: 5%;
 }
 h2 {
@@ -197,10 +197,10 @@ h2 {
 }
 h3 {
   color: black;
-  font-size: 50px;
+  font-size: 30px;
   position: absolute;
   top: 600px;
-  right: 10%;
+  right: 10px;
 }
 /* ========================================
 	ここまでメニュー
