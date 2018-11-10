@@ -190,11 +190,12 @@ h1 {
 .container2 {
   position: absolute;
   top: 50px;
-  left: 40px;
+  left: 60px;
 }
 h2 {
   color: black;
   font-size: 30px;
+  margin-bottom: 10px;
 }
 .imges2 {
   width: 400px;
