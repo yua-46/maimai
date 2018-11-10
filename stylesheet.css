@@ -158,6 +158,7 @@ h1 {
   font-size: 30px;
   color: brown; 
   text-decoration:none;
+  font: normal normal "Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W4", Osaka, sans-serif;
 }
 
 
@@ -194,6 +195,9 @@ h1 {
 h2 {
   color: black;
   font-size: 30px;
+  position: absolute;
+  top: 50px;
+  left: 10px;
 }
 .imges2 {
   width: 400px;
