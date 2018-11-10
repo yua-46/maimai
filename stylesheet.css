@@ -177,7 +177,7 @@ h1 {
   /*background-color:pink;*/
   width: 1000px;
   height: 1500px;
-  background-color: white;
+  /*background-color: white;*/
   position: relative;
 }
 .imges {
@@ -190,7 +190,7 @@ h1 {
 .container2 {
   position: absolute;
   top: 50px;
-  left: 60px;
+  left: 70px;
 }
 h2 {
   color: black;
