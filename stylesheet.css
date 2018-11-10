@@ -138,7 +138,7 @@ h1 {
    font-size: 30px; 
    color: brown;
    text-decoration:none;
-   font: normal normal 85%/1.45 "Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W4", Osaka, sans-serif;
+   font: normal normal "Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W4", Osaka, sans-serif;
 }
 .menyu {
   float: left;
