@@ -242,7 +242,7 @@ footer {
   float: left;
   letter-spacing: 5px;
 }
-.niwase2 br {
+.niwase2 p br {
   margin-top: 5px;
 }
 .hirahuku2 {
@@ -252,7 +252,7 @@ footer {
   margin-left: 100px;
   letter-spacing: 5px;
 }
-.hirahuku2 br {
+.hirahuku2 p br {
   margin-top: 5px;
 }
 /*ここまでフッター*/
