@@ -83,7 +83,7 @@ body {
 
 .wrapper {
   width: 1000px;
-  height: 2540px;
+  height: 2640px;
   margin: 0 auto;
 }
 
@@ -219,7 +219,7 @@ h3 {
 /*ここからフッター*/
 footer {
   width: 100%;
-  height: 100px;
+  height: 200px;
   background-color: white;
 }
 .footer-container {
