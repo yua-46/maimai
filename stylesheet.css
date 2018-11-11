@@ -234,18 +234,19 @@ footer {
 .miyuki {
   font-size: 20px;
   letter-spacing: 5px;
+  color: white;
 }
 .niwase2 {
   color: white;
   font-size: 16px;
   float: left;
-  letter-spacing: 5px;
+  letter-spacing: 10px;
 }
 .hirahuku2 {
   color: white;
   font-size: 16px;
   float: left;
   margin-left: 100px;
-  letter-spacing: 5px;
+  letter-spacing: 10px;
 }
 /*ここまでフッター*/
