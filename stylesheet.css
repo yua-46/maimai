@@ -222,7 +222,9 @@ footer {
   height: 200px;
   background-color: white;
 }
-
+.footer-container {
+  display: inline-block;
+}
 .niwase2 {
   /*color: white;*/
   font-size: 14px;
