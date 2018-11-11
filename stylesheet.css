@@ -235,6 +235,7 @@ footer {
   font-size: 20px;
   letter-spacing: 5px;
   color: white;
+  margin-bottom: 9px;
 }
 .niwase2 {
   color: white;
@@ -243,9 +244,7 @@ footer {
   letter-spacing: 5px;
   line-height: 25px;
 }
-/*.niwase2 p br {
-  margin-top: 5px;
-}*/
+
 .hirahuku2 {
   color: white;
   font-size: 16px;
@@ -254,7 +253,5 @@ footer {
   letter-spacing: 5px;
   line-height: 25px;
 }
-/*.hirahuku2 p br {
-  margin-top: 5px;
-}*/
+
 /*ここまでフッター*/
