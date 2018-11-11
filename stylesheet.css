@@ -166,7 +166,7 @@ h1 {
 .header-img {
   width: 1000px;
   height: 800px;
-  background-color: rgb(207, 8, 42);
+  border:solid 1px white;
 }
 
 
@@ -218,6 +218,6 @@ h3 {
 /*ここからフッター*/
 footer {
   width: 100%;
-  height: 200px;
+  height: 100px;
 }
 /*ここまでフッター*/
