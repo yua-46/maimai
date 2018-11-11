@@ -166,7 +166,6 @@ h1 {
 .header-img {
   width: 1000px;
   height: 800px;
-  border:solid 1px white;
 }
 
 
@@ -186,7 +185,7 @@ h1 {
   position: absolute;
   top: 40px;
   right: 5%;
-  border:solid 1px black;
+  border:solid 1px white;
 }
 .container2 {
   position: absolute;
@@ -204,6 +203,7 @@ h2 {
   position: absolute;
   top: 600px;
   left: 5%;
+  border:solid 1px white;
 }
 h3 {
   color: black;
@@ -220,5 +220,22 @@ h3 {
 footer {
   width: 100%;
   height: 100px;
+  position: relative;
+}
+.niwase2 {
+  color: white;
+  font-size: 14px;
+  position: absolute;
+  right: 17px;
+  top: 10px;
+  float: left;
+}
+.hirahuku2 {
+  color: white;
+  font-size: 14px;
+  position: absolute;
+  right: 17px;
+  top: 10px;
+  float: left;
 }
 /*ここまでフッター*/
