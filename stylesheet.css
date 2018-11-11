@@ -186,6 +186,7 @@ h1 {
   position: absolute;
   top: 40px;
   right: 5%;
+  border:solid 1px white;
 }
 .container2 {
   position: absolute;
