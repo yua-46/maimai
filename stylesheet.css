@@ -219,19 +219,19 @@ h3 {
 
 /*ここからフッター*/
 footer {
-  width: 100%;
+  width: 1000px;
   height: 200px;
-  /*background-color: white;*/
+  background-color: black;
   position: relative;
 }
-/*.footer-container {
+.footer-container {
   position: absolute;
   top: 50%;
   left: 50%;
   -ms-transform: translate(-50%,-50%);
   -webkit-transform : translate(-50%,-50%);
   transform : translate(-50%,-50%);
-}*/
+}
 .miyuki {
   font-size: 18px;
   letter-spacing: 5px;
