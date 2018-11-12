@@ -228,9 +228,9 @@ footer {
   position: absolute;
   top: 50%;
   left: 50%;
-  /*-ms-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
   -webkit-transform : translate(-50%,-50%);
-  transform : translate(-50%,-50%);*/
+  transform : translate(-50%,-50%);
 }
 .miyuki {
   font-size: 18px;
@@ -244,6 +244,8 @@ footer {
   float: left;
   letter-spacing: 2px;
   line-height: 20px;
+  position: absolute;
+  top: 50px;
 }
 .hirahuku2 {
   color: white;
@@ -252,6 +254,8 @@ footer {
   margin-left: 100px;
   letter-spacing: 2px;
   line-height: 20px;
+  position: absolute;
+  top: 50px;
 }
 
 /*ここまでフッター*/
