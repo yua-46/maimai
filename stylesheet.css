@@ -232,7 +232,6 @@ footer {
   -ms-transform: translate(-50%,-50%);
   -webkit-transform : translate(-50%,-50%);
   transform : translate(-50%,-50%);
-  margin: 0 auto;
 }
 .miyuki {
   font-size: 17px;
@@ -251,7 +250,7 @@ footer {
   color: white;
   font-size: 14px;
   float: left;
-  margin-left: 100px;
+  margin-left: 50px;
   letter-spacing: 2px;
   line-height: 18px;
 }
