@@ -227,8 +227,8 @@ footer {
 }
 .footer-container {
   position: absolute;
-  top: 40px;;
-  left: 60px;;
+  top: 50%;;
+  left: 50%;;
   -ms-transform: translate(-50%,-50%);
   -webkit-transform : translate(-50%,-50%);
   transform : translate(-50%,-50%);
@@ -241,18 +241,18 @@ footer {
 }
 .niwase2 {
   color: white;
-  font-size: 16px;
+  font-size: 15px;
   float: left;
   letter-spacing: 2px;
-  line-height: 20px;
+  line-height: 18px;
 }
 .hirahuku2 {
   color: white;
-  font-size: 16px;
+  font-size: 15px;
   float: left;
   margin-left: 100px;
   letter-spacing: 2px;
-  line-height: 20px;
+  line-height: 18px;
 }
 
 /*ここまでフッター*/
