@@ -222,6 +222,7 @@ footer {
   width: 1000px;
   height: 200px;
   background-color: green;
+  margin: 0 auto;
   position: relative;
 }
 .footer-container {
@@ -249,7 +250,7 @@ footer {
   color: white;
   font-size: 16px;
   float: left;
-  margin-left: 50px;
+  margin-left: 100px;
   /*letter-spacing: 2px;
   line-height: 20px;*/
 }
