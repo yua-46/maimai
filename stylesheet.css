@@ -234,23 +234,23 @@ footer {
   transform : translate(-50%,-50%);
 }
 .miyuki {
-  font-size: 18px;
-  letter-spacing: 5px;
+  font-size: 17px;
+  letter-spacing: 2px;
   color: white;
-  margin-bottom: 3px;
+  margin-bottom: 2px;
 }
 .niwase2 {
   color: white;
-  font-size: 15px;
+  font-size: 14px;
   float: left;
   letter-spacing: 2px;
   line-height: 18px;
 }
 .hirahuku2 {
   color: white;
-  font-size: 15px;
+  font-size: 14px;
   float: left;
-  margin-left: 100px;
+  margin-left: 80px;
   letter-spacing: 2px;
   line-height: 18px;
 }
