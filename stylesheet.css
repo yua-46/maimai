@@ -232,6 +232,7 @@ footer {
   -ms-transform: translate(-50%,-50%);
   -webkit-transform : translate(-50%,-50%);
   transform : translate(-50%,-50%);
+  margin: 0 auto;
 }
 .miyuki {
   font-size: 17px;
@@ -245,7 +246,6 @@ footer {
   float: left;
   letter-spacing: 2px;
   line-height: 18px;
-  margin: 0 auto;
 }
 .hirahuku2 {
   color: white;
@@ -254,7 +254,6 @@ footer {
   margin-left: 100px;
   letter-spacing: 2px;
   line-height: 18px;
-  margin: 0 auto;
 }
 
 /*ここまでフッター*/
