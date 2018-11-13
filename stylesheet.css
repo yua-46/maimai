@@ -232,12 +232,14 @@ footer {
   -ms-transform: translate(-50%,-50%);
   -webkit-transform : translate(-50%,-50%);
   transform : translate(-50%,-50%);
+  text-align: center;
 }
 .miyuki {
   font-size: 17px;
   letter-spacing: 2px;
   color: white;
   margin-bottom: 2px;
+  float: left;
 }
 .niwase2 {
   color: white;
