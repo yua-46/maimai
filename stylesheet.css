@@ -207,7 +207,7 @@ h1 {
 .container2 {
   position: absolute;
   top: 50px;
-  left: 70px;
+  left: 50px;
 }
 h2 {
   color: black;
@@ -223,14 +223,15 @@ h2 {
   display: inline-block;
   border-radius: 10px;
 }
-h3 {
-  color: black;
-  font-size: 25px;
+.container3 {
   position: absolute;
   top: 400px;
-  right: 20px;
+  left: 70px;
 }
-
+h3 {
+  color: black;
+  font-size: 30px;
+}
 .imges3 {
   width: 800px;
   height: 450px;
