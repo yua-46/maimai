@@ -226,11 +226,12 @@ h2 {
 .container3 {
   position: absolute;
   top: 400px;
-  left: 70px;
+  right: 70px;
 }
 h3 {
   color: black;
   font-size: 30px;
+  margin-bottom: 10px;
 }
 .imges3 {
   width: 800px;
