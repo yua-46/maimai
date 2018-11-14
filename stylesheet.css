@@ -241,7 +241,7 @@ h3 {
 .imges3:after {
 	position: absolute;
 	display: block;
-	content: "";
+	content: "imges3";
 	bottom: 50px;
 	left: 50%;
 	width: 100%;
