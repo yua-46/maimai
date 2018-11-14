@@ -202,7 +202,10 @@ h1 {
   position: absolute;
   top: 40px;
   right: 5%;
+}
+.imges {
   display: inline-block;
+	position: relative;
 }
 .imges:after {
 	position: absolute;
