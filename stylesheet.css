@@ -230,18 +230,13 @@ h3 {
   top: 400px;
   right: 20px;
 }
-.kakomi {
+
+.imges3 {
   width: 700px;
   height: 400px;
   background-color: white;
   display: inline-block;
 	position: relative;
-}
-.imges3 {
-  position: absolute;
-  bottom: 50px;
-  right: 50%;
-  left: 50%;
 }
 .imges3:after {
 	position: absolute;
