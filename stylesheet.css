@@ -233,7 +233,7 @@ h3 {
 
 .imges3 {
   width: 800px;
-  height: 500px;
+  height: 450px;
   display: inline-block;
 	position: relative;
 }
@@ -245,7 +245,7 @@ h3 {
 	left: 0;
 	width: 100%;
 	height: 100%;
-  background-color: rgb(236, 208, 171);
+  background: rgb(236, 208, 171);
   box-shadow: 
   inset 0 0 20px  rgb(236, 208, 171),
   inset 0 0 20px  rgb(236, 208, 171),
