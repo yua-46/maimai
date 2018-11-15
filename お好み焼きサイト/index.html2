@@ -11,5 +11,11 @@
 	<header>
   <h1>ゼロからウェブデザインを勉強しよう！</h1>
   <p>まずはHTMLについて学びましょう</p>
+
+  
+<script>
+console.log('GitHub Pages Sample');
+  
+</script>
 </body>
 </html>
