@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>テレビ、ラジオで話題のお好み焼き屋！</title>
+<link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    
+	<!--ここからヘッダー-->	
+	<header>
+  <h1>ゼロからウェブデザインを勉強しよう！</h1>
+  <p>まずはHTMLについて学びましょう</p>
+</body>
+</html>
