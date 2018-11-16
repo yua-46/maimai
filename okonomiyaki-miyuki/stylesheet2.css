@@ -109,7 +109,7 @@ header {
 	margin: 0 auto;
   }
   
-.sa {
+ .sa {
 	color:  #aca58f;
 	font-size: 14px;
 	position: absolute;
@@ -175,7 +175,7 @@ header {
   /* ========================================
 	  ここからヘッダーボタン設定
   ========================================= */
-  .sa {
+ .sa {
 	opacity: 0.5;
   } 
   .gaiyou:hover {
