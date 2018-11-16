@@ -211,3 +211,47 @@ main {
 	background-image:url(https://i.gyazo.com/f8ca62ad419ab5d12b5cf51af27b7f34.jpg);
 	position: relative;
   }
+
+/* ========================================
+	ここからfooter
+========================================= */
+  footer {
+	width: 1000px;
+	height: 200px;
+	background-color: black;
+	margin: 0 auto;
+	position: relative;
+  }
+  .footer-container {
+	position: absolute;
+	top: 50%;;
+	left: 50%;;
+	-ms-transform: translate(-50%,-50%);
+	-webkit-transform : translate(-50%,-50%);
+	transform : translate(-50%,-50%);
+  }
+  .miyuki {
+	font-size: 17px;
+	letter-spacing: 2px;
+	color: white;
+	margin-bottom: 2px;
+  }
+  .niwase2 {
+	color: white;
+	font-size: 14px;
+	float: left;
+	letter-spacing: 2px;
+	line-height: 18px;
+  }
+  .hirahuku2 {
+	color: white;
+	font-size: 14px;
+	float: left;
+	margin-left: 50px;
+	letter-spacing: 2px;
+	line-height: 18px;
+  }
+  
+/* ========================================
+	ここまでfooter
+========================================= */
