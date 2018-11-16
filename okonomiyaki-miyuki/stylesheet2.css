@@ -85,6 +85,7 @@ body {
 /* ========================================
 	ここまでbody
 ========================================= */
+
 /* ========================================
 	ここからwrapper
 ========================================= */
@@ -95,4 +96,105 @@ body {
 }
 /* ========================================
 	ここまでwrapper
+========================================= */
+
+/* ========================================
+	ここからヘッダー
+========================================= */
+header {
+	width: 1000px;
+	height: 100px;
+	background-image:url(https://i.gyazo.com/thumb/1000/5fc4fcbd4f7b9f19c2165955fbe599ea-jpg.jpg);
+	position: relative;
+	margin: 0 auto;
+  }
+  
+  h1 {
+	color:  #aca58f;
+	font-size: 14px;
+	position: absolute;
+	left: 17px;
+	top: 10px;
+  }
+  .niwase {
+	color: black;
+	font-size: 14px;
+	position: absolute;
+	right: 17px;
+	top: 10px;
+  }
+  .hirahuku {
+	color: block;
+	font-size: 14px;
+	position: absolute;
+	right: 17px;
+	top: 30px;
+  }
+  
+  /* ========================================
+	  ここまでヘッダー
+  ========================================= */
+  .header-btn {
+	background-image:url(https://i.gyazo.com/thumb/1000/5fc4fcbd4f7b9f19c2165955fbe599ea-jpg.jpg);
+	width: 1000px;
+	height: 40px;
+	text-align: center;
+	position: relative;
+  }
+  .gaiyou {
+	 float: left;
+	 position: absolute;
+	 left : 280px;
+	 top: 5px;
+	 font-size: 30px; 
+	 color: brown;
+	 text-decoration:none;
+	 font: normal normal "Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W4", Osaka, sans-serif;
+  }
+  .menyu {
+	float: left;
+	position: absolute;
+	left :  400px;
+	top: 5px;
+	font-size: 30px;
+	color: brown; 
+	text-decoration:none;
+	font: normal normal "Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W4", Osaka, sans-serif;
+  }
+  .tennpo {
+	float: left;
+	position: absolute;
+	left : 630px;
+	top: 5px;
+	font-size: 30px;
+	color: brown; 
+	text-decoration:none;
+	font: normal normal "Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W4", Osaka, sans-serif;
+  }
+  /* ========================================
+	  ここからヘッダーボタン設定
+  ========================================= */
+  .gaiyou:hover {
+	opacity: 0.5;
+  }
+  .menyu:hover {
+	opacity: 0.5;
+  }
+  .tennpo:hover {
+	opacity: 0.5;
+  }
+  
+  /* ========================================
+	  ここまでヘッダーボタン設定
+  ========================================= */
+  
+  
+  .header-img {
+	width: 1000px;
+	height: 800px;
+	/*border: 1px solid white;*/
+  }
+  
+/* ========================================
+	ここからメニュー
 ========================================= */
