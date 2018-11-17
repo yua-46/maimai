@@ -209,9 +209,10 @@ header {
 		width: 950px;
 		height: 300px;
 		margin: 0 auto;
-		margin-top: 5px;
+		margin-top: 10px;
 		/*background-image:url(https://i.gyazo.com/f8ca62ad419ab5d12b5cf51af27b7f34.jpg);*/
 		position: relative;
+		border: 2px groove	black;
 	}
   h1 {
 		position: absolute;
