@@ -71,14 +71,18 @@ console.log('GitHub Pages Sample');
 // 最上部から現在位置までの距離を取得して、変数[now]に格納
 var now = $( window ).scrollTop() ;
 
-// 最上部から現在位置までの距離(now)が1500px以上だったら
-if( now > 1500 )
+// 最下部から現在位置までの距離を計算して、変数[under]に格納
+var under = $( 'body' ).height() - ( now + $(window).height() ) ;
+
+// 最上部から現在位置までの距離(now)が1000以上かつ
+// 最下部から現在位置までの距離(under)が200px以上だったら
+if( now > 1000 && 200 > under )
 {
 	// [#page-top]をゆっくりフェードインする
-	$( '#page-top' ).fadeIn( "slow" ) ;
+	$( '#page-top' ).fadeIn( 'slow' ) ;
 }
 
-// 1500px以下だったら
+// 1000px以下だったら
 else
 {
 	// [#page-top]をゆっくりフェードアウトする
