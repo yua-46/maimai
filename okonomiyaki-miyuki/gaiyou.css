@@ -223,9 +223,10 @@ header {
 	.goaisatu p {
 		position: absolute;
 		left : 20px;
-		top: 75px;
+		top: 80px;
 		letter-spacing: 1px;
-  	line-height: 18px;
+		line-height: 18px;
+		font-family: 'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
 	}
 /* ========================================
 	ここからメニュー
