@@ -219,6 +219,8 @@ header {
 		top: 40px;
 		font-size: 20px;
 		letter-spacing: 1px;
+		font-family: 'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+		font-weight: bold;
 	}
 	.goaisatu p {
 		position: absolute;
