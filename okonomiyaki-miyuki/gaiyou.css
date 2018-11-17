@@ -216,13 +216,13 @@ header {
   h1 {
 		position: absolute;
 		left : 20px;
-		top: 20px;
+		top: 30px;
 		font-size: 20px; 
 	}
 	.goaisatu p {
 		position: absolute;
 		left : 20px;
-		top: 60px;
+		top: 65px;
 	}
 /* ========================================
 	ここからメニュー
