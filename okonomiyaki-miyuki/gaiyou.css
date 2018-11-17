@@ -212,16 +212,17 @@ header {
 		margin-top: 10px;
 		/*background-image:url(https://i.gyazo.com/f8ca62ad419ab5d12b5cf51af27b7f34.jpg);*/
 		position: relative;
-		border: 8px solid	black;
+		border: 6px solid	#800000;
 	}
   h1 {
 		position: absolute;
 		left : 20px;
 		top: 40px;
-		font-size: 20px;
+		font-size: 23px;
 		letter-spacing: 1px;
 		font-family: 'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
 		font-weight: bold;
+		color: #800000;
 	}
 	.goaisatu p {
 		position: absolute;
