@@ -216,14 +216,14 @@ header {
   h1 {
 		position: absolute;
 		left : 20px;
-		top: 30px;
+		top: 40px;
 		font-size: 20px;
 		letter-spacing: 1px;
 	}
 	.goaisatu p {
 		position: absolute;
 		left : 20px;
-		top: 65px;
+		top: 75px;
 		letter-spacing: 1px;
   	line-height: 18px;
 	}
