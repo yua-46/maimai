@@ -217,12 +217,15 @@ header {
 		position: absolute;
 		left : 20px;
 		top: 30px;
-		font-size: 20px; 
+		font-size: 20px;
+		letter-spacing: 2px;
 	}
 	.goaisatu p {
 		position: absolute;
 		left : 20px;
 		top: 65px;
+		letter-spacing: 2px;
+  	line-height: 20px;
 	}
 /* ========================================
 	ここからメニュー
