@@ -214,17 +214,15 @@ header {
 		position: relative;
 	}
   h1 {
-		float: left;
-		position: absolute;
-		left : 50px;
-		top: 5px;
-		font-size: 10px; 
-	}
-	.goaisatu p {
-		float: left;
 		position: absolute;
 		left : 50px;
 		top: 10px;
+		font-size: 20px; 
+	}
+	.goaisatu p {
+		position: absolute;
+		left : 50px;
+		top: 20px;
 	}
 /* ========================================
 	ここからメニュー
