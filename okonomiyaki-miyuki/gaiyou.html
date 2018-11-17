@@ -67,6 +67,23 @@ console.log('GitHub Pages Sample');
     <img src="https://i.gyazo.com/e66e9f48438d7b6c845f0c90dcb2eb03.jpg"  style="width:35px; height:170px">
   </a></p>
 </div>
+
+// 最上部から現在位置までの距離を取得して、変数[now]に格納
+var now = $( window ).scrollTop() ;
+
+// 最上部から現在位置までの距離(now)が1500px以上だったら
+if( now > 1500 )
+{
+	// [#page-top]をゆっくりフェードインする
+	$( '#page-top' ).fadeIn( "slow" ) ;
+}
+
+// 1500px以下だったら
+else
+{
+	// [#page-top]をゆっくりフェードアウトする
+	$( '#page-top' ).fadeOut( 'slow' ) ;
+}
 <!--ここまで先頭へ戻るボタン-->
 </body>
 </html>
