@@ -91,7 +91,7 @@ body {
 ========================================= */
 .wrapper {
   width: 1000px;
-  height: 2240px;
+  height: 1840px;
   margin: 0 auto;
 }
 /* ========================================
@@ -238,7 +238,7 @@ header {
 main {
 	/*background-color:pink;*/
 	width: 1000px;
-	height: 2000px;
+	height: 1600px;
 	background-image:url(https://i.gyazo.com/f8ca62ad419ab5d12b5cf51af27b7f34.jpg);
 	position: relative;
   }
