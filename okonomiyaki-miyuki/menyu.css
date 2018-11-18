@@ -204,18 +204,17 @@ header {
 	}
 .menyulist1r{
 	font-size: 20px;
-	float: left;
+	/*float: left;*/
 	background-color:white;
 	width: 480px;
 	height: 500px;
 }
 .menyulist2{
 	font-size: 20px;
-	float: left;
+	/*float: left;*/
 	background-color:blue;
 	width: 480px;
 	height: 500px;
-	clear: both;
 }
 .price{
 	text-align: right;
@@ -226,7 +225,6 @@ header {
 	margin-top: -1.55em;
 	padding-bottom: 5px;
 	margin-bottom: 0.7em;
-	clear: both;
 }
 .clear {
 	clear: both;
