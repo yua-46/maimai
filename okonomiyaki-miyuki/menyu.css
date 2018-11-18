@@ -225,11 +225,12 @@ header {
 }
 .menyulist1 menyulist2 dt {
 	text-align: left;
-   padding-left: 18px;
-   font-weight: bold;
-	 color: #412818;
-	 background-repeat: no-repeat;
-	 background-position: left 3px;
+  padding-left: 18px;
+  font-weight: bold;
+	color: #412818;
+	background-repeat: no-repeat;
+	background-position: left 3px;
+	display: inline-block;
 }
 .price {
 	text-align: right;
@@ -239,6 +240,7 @@ header {
 	border-bottom: 1px #a89f8a dotted;
 	padding-bottom: 5px;
 	margin-bottom: 0.7em;
+	display: inline-block;
 }
 
 /* ========================================
