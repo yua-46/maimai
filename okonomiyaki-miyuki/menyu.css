@@ -199,19 +199,21 @@ header {
 .menyu-wrapper{
 	width: 980px;
 	height: 600px;
-	margin: 0 auto;
 	background-color: red;
+	clear: both;
+	}
+	.ll {
+		float:left;
+		width: 480px;
 	}
 .menyulist1r{
 	font-size: 20px;
-	float: left;
 	background-color:white;
 	width: 480px;
 	height: 500px;
 }
 .menyulist2{
 	font-size: 20px;
-	float: left;
 	background-color:blue;
 	width: 480px;
 	height: 500px;
@@ -236,9 +238,7 @@ header {
 	padding-bottom: 5px;
 	margin-bottom: 0.7em;
 }
-.clear {
-	clear: both;
-}
+
 /* ========================================
 	ここからメニュー
 ========================================= */
