@@ -213,7 +213,7 @@ header {
 	float:left;
 	width: 480px;
 	height: 500px;
-	display: block;
+	display: inline-block;
 }
 .menyulist2{
 	font-size: 20px;
@@ -221,7 +221,7 @@ header {
 	float:left;
 	width: 480px;
 	height: 500px;
-	display: block;
+	display: inline-block;
 }
 .menyulist1 menyulist2 dt {
 	text-align: left;
@@ -230,7 +230,6 @@ header {
 	color: #412818;
 	background-repeat: no-repeat;
 	background-position: left 3px;
-	display: inline-block;
 }
 .price {
 	text-align: right;
@@ -240,7 +239,6 @@ header {
 	border-bottom: 1px #a89f8a dotted;
 	padding-bottom: 5px;
 	margin-bottom: 0.7em;
-	display: inline-block;
 }
 
 /* ========================================
