@@ -204,7 +204,11 @@ header {
 	clear: both;
 	position: relative;
 	}
-
+	.ll {
+		float:left;
+		width: 480px;
+		height: 500px;
+	}
 .menyulist1r{
 	font-size: 20px;
 	background-color:white;
