@@ -210,7 +210,6 @@ header {
 		height: 300px;
 		margin: 0 auto;
 		margin-top: 10px;
-		/*background-image:url(https://i.gyazo.com/f8ca62ad419ab5d12b5cf51af27b7f34.jpg);*/
 		position: relative;
 		border: 6px solid	#800000;
 	}
@@ -231,6 +230,11 @@ header {
 		letter-spacing: 1px;
 		line-height: 18px;
 		font-family: 'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+	}
+	.goaisatu img {
+		position: absolute;
+		right : 20px;
+		top: 5px;
 	}
 /* ========================================
 	ここからメニュー
