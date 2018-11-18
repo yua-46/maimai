@@ -231,7 +231,6 @@ dt {
 	color: #412818;
 	background-repeat: no-repeat;
 	background-position: left 3px;
-	display: inline;
 }
 .price {
 	text-align: right;
@@ -239,7 +238,6 @@ dt {
 	color: #ae0000;
 	font-size: 90%;
 	border-bottom: 1px #a89f8a dotted;
-	display: inline;
 }
 
 /* ========================================
