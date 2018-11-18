@@ -220,13 +220,18 @@ header {
 	text-align: left;
     padding-left: 18px;
     font-weight: bold;
-    color: #412818;
+		color: #412818;
+		background-repeat: no-repeat;
+    background-position: left 3px;
 }
 .price {
 	text-align: right;
 	font-weight: bold;
 	color: #ae0000;
 	font-size: 90%;
+	margin-top: -1.55em;
+	padding-bottom: 5px;
+	margin-bottom: 0.7em;
 	border-bottom: 1px #a89f8a dotted;
 	padding-bottom: 5px;
 	margin-bottom: 0.7em;
