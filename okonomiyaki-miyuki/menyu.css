@@ -205,9 +205,8 @@ header {
 	position: relative;
 	}
 	.ll {
-		/*padding-left: 10px;
-		padding-top: 50px;*/
-		padding: 0 auto;
+		padding-left: 10px;
+		padding-top: 50px;
 	}
 .menyulist1 {
 	font-size: 20px;
