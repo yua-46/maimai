@@ -216,13 +216,14 @@ header {
 	width: 480px;
 	height: 500px;
 }
-.price{
+.price {
+	width: 480px;
+	height: 500px;
 	text-align: right;
 	font-weight: bold;
 	color: #ae0000;
 	font-size: 90%;
 	border-bottom: 1px #a89f8a dotted;
-	margin-top: -1.55em;
 	padding-bottom: 5px;
 	margin-bottom: 0.7em;
 }
