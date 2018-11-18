@@ -196,9 +196,18 @@ header {
 /* ========================================
 	ここからmain
 ========================================= */
-  
-
-
+.menyu-wrapper{
+	width: 980px;
+	height: 600px;
+	margin: 0 auto;
+	background-color: red;
+	}
+.menyu-container{
+	font-size: 15px;
+}
+.menyu-container2{
+	font-size: 15px;
+}
 
 /* ========================================
 	ここからメニュー
