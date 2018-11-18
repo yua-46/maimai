@@ -216,7 +216,7 @@ header {
 	width: 480px;
 	height: 500px;
 }
-.menulist1 dd.price{
+.price{
 	text-align: right;
 	font-weight: bold;
 	color: #ae0000;
