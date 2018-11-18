@@ -213,6 +213,7 @@ header {
 	float:left;
 	width: 480px;
 	height: 500px;
+	display: block;
 }
 .menyulist2{
 	font-size: 20px;
@@ -220,6 +221,7 @@ header {
 	float:left;
 	width: 480px;
 	height: 500px;
+	display: block;
 }
 .menyulist1 menyulist2 dt {
 	text-align: left;
@@ -227,24 +229,18 @@ header {
    font-weight: bold;
 	 color: #412818;
 	 background-repeat: no-repeat;
-   background-position: left 3px;
+	 background-position: left 3px;
 }
 .price {
 	text-align: right;
 	font-weight: bold;
 	color: #ae0000;
 	font-size: 90%;
-	margin-top: -1.55em;
-	padding-bottom: 5px;
-	margin-bottom: 0.7em;
 	border-bottom: 1px #a89f8a dotted;
 	padding-bottom: 5px;
 	margin-bottom: 0.7em;
 }
-dd {
-	display: block;
-	margin-inline-start: 40px;
-}
+
 /* ========================================
 	ここからメニュー
 ========================================= */
