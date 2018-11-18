@@ -241,7 +241,10 @@ header {
 	padding-bottom: 5px;
 	margin-bottom: 0.7em;
 }
-
+dd {
+	display: block;
+	margin-inline-start: 40px;
+}
 /* ========================================
 	ここからメニュー
 ========================================= */
