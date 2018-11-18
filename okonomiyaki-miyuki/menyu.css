@@ -202,6 +202,7 @@ header {
 	background-color: red;
 	margin: 0 auto;
 	clear: both;
+	position: relative;
 	}
 	.ll {
 		float:left;
@@ -213,7 +214,6 @@ header {
 	float:left;
 	width: 480px;
 	height: 500px;
-	display: inline-block;
 }
 .menyulist2{
 	font-size: 20px;
@@ -221,7 +221,8 @@ header {
 	float:left;
 	width: 480px;
 	height: 500px;
-	display: inline-block;
+	position: absolute;
+	left: 500px;
 }
 .menyulist1 menyulist2 dt {
 	text-align: left;
