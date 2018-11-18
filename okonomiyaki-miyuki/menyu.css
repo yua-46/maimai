@@ -234,6 +234,7 @@ dt {
 	/*background-repeat: no-repeat;
 	background-position: left 3px;
 	padding-bottom: -15px;*/
+	margin-top:5px;
 }
 .price {
 	text-align: right;
