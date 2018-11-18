@@ -222,6 +222,9 @@ header {
 	color: #ae0000;
 	font-size: 90%;
 	border-bottom: 1px #a89f8a dotted;
+	margin-top: -1.55em;
+	padding-bottom: 5px;
+	margin-bottom: 0.7em;
 }
 .clear {
 	clear: both;
