@@ -203,10 +203,14 @@ header {
 	background-color: red;
 	}
 .menyu-container{
-	font-size: 30px;
+	font-size: 20px;
+	float: left;
+	background-color:white;
 }
 .menyu-container2{
-	font-size: 30px;
+	font-size: 20px;
+	float: left;
+	background-color:blue;
 }
 
 /* ========================================
