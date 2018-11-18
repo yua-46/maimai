@@ -207,7 +207,7 @@ header {
 	.ll {
 		float:left;
 	}
-.menyulist1r{
+.menyulist1 {
 	font-size: 20px;
 	background-color:white;
 	float:left;
@@ -217,7 +217,7 @@ header {
 	top: 1px;
 	left: 1px;
 }
-.menyulist2{
+.menyulist2 {
 	font-size: 20px;
 	background-color:blue;
 	float:left;
