@@ -199,7 +199,7 @@ header {
 main {
 	/*background-color:pink;*/
 	width: 1000px;     /*コンテナの幅*/
-	height: 960px;    /*コンテナの高さ*/
+	height: 900px;    /*コンテナの高さ*/
 	background-image:url(https://i.gyazo.com/f8ca62ad419ab5d12b5cf51af27b7f34.jpg);
 	position: relative;
   }
@@ -213,7 +213,7 @@ main {
 }
 .h1-container h1{
 	font-size: 25px;
-	color: white;
+	color: black;
 	margin-top: 8px;
 	margin-left: 10px;
 }
@@ -226,6 +226,7 @@ main {
 	top: 60px;
 	/*clear: both;*/
 	background-image:url(https://i.gyazo.com/c3765432c458d1c30e27cdf7a6739312.jpg);
+	background-size: cover;
 	}
 .ll {
 	padding-left: 40px;
