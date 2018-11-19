@@ -214,6 +214,8 @@ main {
 .h1-container h1{
 	font-size: 25px;
 	color: white;
+	margin-top: 5px;
+	margin-left: 10px;
 }
 .menyu-wrapper{
 	width: 980px;
