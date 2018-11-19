@@ -196,6 +196,15 @@ header {
 /* ========================================
 	ここからmain
 ========================================= */
+.h1-container {
+	width: 980px;
+	height: 100px;
+	background-color: black;
+}
+h1{
+	font-size: 22px;
+	color: white;
+}
 .menyu-wrapper{
 	width: 980px;
 	height: 760px;
@@ -204,10 +213,10 @@ header {
 	clear: both;
 	position: relative;
 	}
-	.ll {
-		padding-left: 40px;
-		padding-top: 50px;
-	}
+.ll {
+	padding-left: 40px;
+	padding-top: 50px;
+}
 .menyulist1 {
 	font-size: 18px;
 	/*background-color:white;*/
