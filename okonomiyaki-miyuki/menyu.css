@@ -219,7 +219,9 @@ main {
 	width: 980px;
 	height: 760px;
 	background-color: red;
-	margin: 0 auto;
+	margin-left: 10px;
+	position: absolute;
+	top: 60px;
 	/*clear: both;*/
 	}
 .ll {
