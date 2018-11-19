@@ -201,8 +201,9 @@ header {
 	height: 40px;
 	background-color: pink;
 	margin-left: 10px;
+	margin-top: 10px;
 }
-h1{
+.h1-container h1{
 	font-size: 25px;
 	color: white;
 }
