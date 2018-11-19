@@ -221,12 +221,11 @@ main {
 	background-color: red;
 	margin: 0 auto;
 	clear: both;
+	margin-left: 10px;
 	}
 .ll {
 	padding-left: 40px;
 	padding-top: 50px;
-	position: absolute;
-	top: 60px;
 }
 .menyulist1 {
 	font-size: 18px;
