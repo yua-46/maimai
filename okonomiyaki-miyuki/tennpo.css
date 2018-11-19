@@ -219,23 +219,19 @@ main {
 		margin-left: 10px;
 	}
 	.tennpo-wrapper{
-		width: 450px;
-		height: 550px;
+		width: 500px;
+		height: 800px;
 		background-color: red;
-		margin-left: 10px;
-		position: absolute;
-		top: 60px;
+		float: left;
 		/*clear: both;*/
 		}
 	
-		
+
 	.tennpo2-wrapper{
-		width: 450px;
-		height: 550px;
-		background-color: red;
-		margin-left: 10px;
-		position: absolute;
-		top: 60px;
+		width: 500px;
+		height: 800px;
+		background-color: white;
+		float: left;
 		/*clear: both;*/
 		}
 
