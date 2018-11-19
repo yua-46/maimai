@@ -210,31 +210,24 @@ header {
 	}
 .menyulist1 {
 	font-size: 18px;
-	background-color:white;
+	/*background-color:white;*/
 	float:left;
 	width: 440px;
 	height: 660px;
-	/*position: absolute;
-	left: 1px;*/
 }
 .menyulist2 {
 	font-size: 18px;
-	background-color:blue;
+	/*background-color:blue;*/
 	float:left;
 	width: 440px;
 	height: 660px;
 	margin-left: 20px;
-	/*position: absolute;
-	left: 500px;*/
 }
 dt {
 	text-align: left;
   padding-left: 18px;
   font-weight: bold;
 	color: #412818;
-	/*background-repeat: no-repeat;
-	background-position: left 3px;
-	padding-bottom: -15px;*/
 	margin-top:15px;
 }
 .price {
@@ -246,6 +239,9 @@ dt {
 	padding-bottom: 5px;
 	margin-bottom: 0.7em;*/
 	border-bottom: 1px #a89f8a dotted;
+}
+.menyulist2 p {
+	margin-top: 5px;
 }
 
 /* ========================================
