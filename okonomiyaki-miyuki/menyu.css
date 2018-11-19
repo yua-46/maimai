@@ -198,8 +198,9 @@ header {
 ========================================= */
 .h1-container {
 	width: 980px;
-	height: 100px;
+	height: 40px;
 	background-color: black;
+	margin: 0 auto;
 }
 h1{
 	font-size: 22px;
