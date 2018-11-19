@@ -205,23 +205,23 @@ header {
 	position: relative;
 	}
 	.ll {
-		padding-left: 10px;
+		padding-left: 20px;
 		padding-top: 50px;
 	}
 .menyulist1 {
-	font-size: 20px;
+	font-size: 18px;
 	background-color:white;
 	float:left;
-	width: 400px;
+	width: 440px;
 	height: 500px;
 	/*position: absolute;
 	left: 1px;*/
 }
 .menyulist2 {
-	font-size: 20px;
+	font-size: 18px;
 	background-color:blue;
 	float:left;
-	width: 480px;
+	width: 440px;
 	height: 500px;
 	/*position: absolute;
 	left: 500px;*/
