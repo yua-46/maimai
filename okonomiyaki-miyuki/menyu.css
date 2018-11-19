@@ -222,6 +222,8 @@ main {
 	background-color: red;
 	margin: 0 auto;
 	clear: both;
+	position: absolute;
+	top: 30px;
 	}
 .ll {
 	padding-left: 40px;
