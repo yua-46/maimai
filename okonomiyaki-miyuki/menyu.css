@@ -206,7 +206,7 @@ main {
 .h1-container {
 	width: 980px;
 	height: 40px;
-	background-color: pink;
+	background-color: black;
 	margin-left: 10px;
 	position: absolute;
 	top: 10px;
@@ -214,17 +214,18 @@ main {
 .h1-container h1{
 	font-size: 25px;
 	color: white;
-	margin-top: 5px;
+	margin-top: 8px;
 	margin-left: 10px;
 }
 .menyu-wrapper{
 	width: 980px;
 	height: 760px;
-	background-color: red;
+	/*background-color: red;*/
 	margin-left: 10px;
 	position: absolute;
 	top: 60px;
 	/*clear: both;*/
+	background-image:url(https://i.gyazo.com/239bf60b826b7412ebee75160341579a.jpg);
 	}
 .ll {
 	padding-left: 40px;
