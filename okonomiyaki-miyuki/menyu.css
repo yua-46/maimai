@@ -199,9 +199,8 @@ header {
 .h1-container {
 	width: 980px;
 	height: 40px;
-	background-color: black;
+	background-color: pink;
 	margin-left: 10px;
-	margin-top: 10px;
 }
 h1{
 	font-size: 25px;
