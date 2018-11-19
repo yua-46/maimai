@@ -200,11 +200,7 @@ header {
 	width: 980px;
 	height: 40px;
 	background-color: black;
-	margin: 0 auto;
-}
-.h1-container2 {
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin: 10px 10px 0 10px;
 }
 h1{
 	font-size: 25px;
