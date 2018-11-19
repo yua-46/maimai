@@ -206,7 +206,7 @@ main {
 .h1-container {
 	width: 980px;
 	height: 40px;
-	background-color: black;
+	background-image:url(https://i.gyazo.com/239bf60b826b7412ebee75160341579a.jpg);
 	margin-left: 10px;
 	position: absolute;
 	top: 10px;
@@ -225,7 +225,7 @@ main {
 	position: absolute;
 	top: 60px;
 	/*clear: both;*/
-	background-image:url(https://i.gyazo.com/239bf60b826b7412ebee75160341579a.jpg);
+	background-image:url(https://i.gyazo.com/c3765432c458d1c30e27cdf7a6739312.jpg);
 	}
 .ll {
 	padding-left: 40px;
