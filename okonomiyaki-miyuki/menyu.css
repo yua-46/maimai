@@ -198,7 +198,7 @@ header {
 ========================================= */
 .menyu-wrapper{
 	width: 980px;
-	height: 600px;
+	height: 760px;
 	background-color: red;
 	margin: 0 auto;
 	clear: both;
@@ -213,7 +213,7 @@ header {
 	background-color:white;
 	float:left;
 	width: 440px;
-	height: 500px;
+	height: 660px;
 	/*position: absolute;
 	left: 1px;*/
 }
@@ -222,7 +222,7 @@ header {
 	background-color:blue;
 	float:left;
 	width: 440px;
-	height: 500px;
+	height: 660px;
 	margin-left: 20px;
 	/*position: absolute;
 	left: 500px;*/
