@@ -223,6 +223,9 @@ main {
 		height: 800px;
 		background-color: red;
 		float: left;
+		margin-left: 10px;
+		position: absolute;
+		top: 60px;
 		/*clear: both;*/
 		}
 	
@@ -232,6 +235,9 @@ main {
 		height: 800px;
 		background-color: white;
 		float: left;
+		margin-left: 10px;
+		position: absolute;
+		top: 60px;
 		/*clear: both;*/
 		}
 
