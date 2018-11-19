@@ -201,10 +201,13 @@ header {
 	height: 40px;
 	background-color: black;
 	margin: 0 auto;
+}
+.h1-container2 {
 	margin-top: 10px;
+	margin-bottom: 10px;
 }
 h1{
-	font-size: 22px;
+	font-size: 25px;
 	color: white;
 }
 .menyu-wrapper{
