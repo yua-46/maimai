@@ -245,12 +245,13 @@ main {
 			background-color: white;
 		}
 	.tennpo-txt table{
+		 width: 500px;
 			padding-bottom: 1em;
     	border-bottom: 1px #865b4a dotted;
     	margin: 0px auto 10px;
 		}
-		.td {
-			text-align: right;
+	.td {
+		 text-align: right;
 		}
 	.tennpo-map {
 			width: 500px;
