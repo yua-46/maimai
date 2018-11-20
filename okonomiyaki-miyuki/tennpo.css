@@ -231,25 +231,25 @@ main {
 		background-color: red;
 		/*clear: both;*/
 		}
-		.tennpo-img {
+	.tennpo-img {
 			width: 450px;
 			height: 500px;
 			background-color: blue;
 			float: left;
 			margin-right: 5px;
 		}
-		.tennpo-txt {
+	.tennpo-txt {
 			width: 500px;
 			height: 300px;
 			float: left;
 			background-color: white;
 		}
-		.infowrap .txt table{
+	.tennpo-txt table{
 			padding-bottom: 1em;
     	border-bottom: 1px #865b4a dotted;
     	margin: 0px auto 10px;
 		}
-		.tennpo-map {
+	.tennpo-map {
 			width: 500px;
 			height: 300px;
 			float: left;
