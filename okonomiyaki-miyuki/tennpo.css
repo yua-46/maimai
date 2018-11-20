@@ -248,7 +248,7 @@ main {
 		 	width: 500px;
 			padding-bottom: 1em;
     	border-bottom: 1px #865b4a dotted;
-			margin: 0px auto 10px;
+			/*margin: 0px auto 10px;*/
 			font-size: 18px;
 	}
 		dt {
@@ -256,7 +256,6 @@ main {
 			padding-left: 18px;
 			font-weight: bold;
 			color: #412818;
-			margin-top:15px;
 		}
 		.txt {
 			text-align: right;
