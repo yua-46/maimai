@@ -261,6 +261,10 @@ main {
 			border-bottom: 1px #a89f8a dotted;
 			margin: 0 auto;
 		}
+		span {
+			font-size: 140%;
+			font-weight: bold;
+		}
 
 	.tennpo-map {
 			width: 500px;
