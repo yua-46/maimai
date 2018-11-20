@@ -236,7 +236,7 @@ main {
 			height: 500px;
 			background-color: blue;
 			float: left;
-			margin-right: 5px;
+			margin-right: 10px;
 		}
 	.tennpo-txt {
 			width: 500px;
@@ -256,9 +256,8 @@ main {
 			margin-top:15px;
 		}
 		.txt {
-			text-align: right;
-			font-size: 90%;
 			text-align: center;
+			font-size: 90%;
 			border-bottom: 1px #a89f8a dotted;
 		}
 
