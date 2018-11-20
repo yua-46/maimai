@@ -239,13 +239,10 @@ main {
 			margin-right: 5px;
 		}
 	.tennpo-txt {
-			width: 500px;
+			width: 400px;
 			height: 300px;
 			float: left;
 			background-color: white;
-		}
-	.tennpo-txt {
-		 	width: 500px;
 			padding-bottom: 1em;
     	border-bottom: 1px #865b4a dotted;
 			/*margin: 0px auto 10px;*/
