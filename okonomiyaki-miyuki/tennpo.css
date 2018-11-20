@@ -223,14 +223,13 @@ main {
 		height: 1300px;
 		margin: 0 auto;
 		background-color: pink;
-		margin-top: 40px;
+		margin-top: 50px;
 	}
 	.tennpo-wrapper{
 		width: 980px;
 		height: 600px;
 		background-color: red;
 		/*clear: both;*/
-		margin-top: 20px;
 		}
 	.tennpo2-wrapper{
 		width: 980px;
