@@ -250,6 +250,9 @@ main {
     	border-bottom: 1px #865b4a dotted;
     	margin: 0px auto 10px;
 		}
+	.th {
+		text-align: left;
+	}
 	.td {
 		 text-align: right;
 		}
