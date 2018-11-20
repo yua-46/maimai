@@ -249,6 +249,9 @@ main {
     	border-bottom: 1px #865b4a dotted;
     	margin: 0px auto 10px;
 		}
+		.td {
+			text-align: right;
+		}
 	.tennpo-map {
 			width: 500px;
 			height: 300px;
