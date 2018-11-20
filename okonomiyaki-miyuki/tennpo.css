@@ -227,17 +227,15 @@ main {
 	}
 	.tennpo-wrapper{
 		width: 450px;
-		height: 800px;
+		height: 400px;
 		background-color: red;
-		float: left;
 		/*clear: both;*/
 		}
 	.tennpo2-wrapper{
 		width: 450px;
-		height: 800px;
+		height: 400px;
 		background-color: white;
-		float: left;
-		margin-left: 10px;
+		margin-left: 20px;
 		/*clear: both;*/
 		}
 
