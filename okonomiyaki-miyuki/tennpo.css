@@ -231,6 +231,23 @@ main {
 		background-color: red;
 		/*clear: both;*/
 		}
+		.tennpo-img {
+			width: 450px;
+			height: 500px;
+			background-color: blue;
+		}
+		.tennpo-txt {
+			width: 450px;
+			height: 300px;
+			float: left;
+			background-color: white;
+		}
+		.tennpo-map {
+			width: 450px;
+			height: 300px;
+			float: left;
+			background-color: yellow;
+		}
 	.tennpo2-wrapper{
 		width: 980px;
 		height: 600px;
