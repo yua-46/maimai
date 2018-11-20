@@ -228,7 +228,7 @@ main {
 	.tennpo-wrapper{
 		width: 980px;
 		height: 600px;
-		background-color: red;
+		background-color:	white;
 		/*clear: both;*/
 		}
 /* ========================================
@@ -236,8 +236,8 @@ main {
 ========================================= */
 	.tennpo-img {
 			width: 450px;
-			height: 400px;
-			background-color: blue;
+			height: 380px;
+			/*background-color: blue;*/
 			float: left;
 			margin-right: 10px;
 			margin-left: 10px;
