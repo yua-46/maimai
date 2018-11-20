@@ -236,10 +236,10 @@ main {
 ========================================= */
 	.tennpo-img {
 			width: 450px;
-			height: 350px;
+			height: 400px;
 			background-color: blue;
 			float: left;
-			margin-right: 20px;
+			margin-right: 15px;
 			margin-left: 5px;
 		}
 
