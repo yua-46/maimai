@@ -222,6 +222,8 @@ main {
 		width: 980px;
 		height: 960px;
 		margin: 0 auto;
+		background-color: pink;
+		margin-top: 40px;
 	}
 	.tennpo-wrapper{
 		width: 450px;
