@@ -248,6 +248,11 @@ main {
 			/*margin: 0px auto 10px;*/
 			font-size: 18px;
 	}
+	.txt {
+		border-bottom: 1px #a89f8a dotted;
+		width: 500px;
+		height: 35px;
+	}
 		dt {
 			text-align: left;
 			padding-left: 18px;
@@ -255,10 +260,9 @@ main {
 			color: #412818;
 			margin-top: 15px;
 		}
-		.txt {
+		dd {
 			text-align: center;
 			font-size: 90%;
-			border-bottom: 1px #a89f8a dotted;
 			margin-bottom: 15px;
 		}
 		span {
