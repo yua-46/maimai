@@ -244,6 +244,11 @@ main {
 			float: left;
 			background-color: white;
 		}
+		.infowrap .txt table{
+			padding-bottom: 1em;
+    	border-bottom: 1px #865b4a dotted;
+    	margin: 0px auto 10px;
+		}
 		.tennpo-map {
 			width: 500px;
 			height: 300px;
