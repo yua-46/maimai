@@ -75,7 +75,7 @@
 
 scrolltotop.init()*/
 
-// グローバル変数
+/*// グローバル変数
 var syncerTimeout = null ;
 
 // 一連の処理
@@ -136,4 +136,4 @@ $( function()
 			$( 'html,body' ).animate( {scrollTop:0} , 'slow' ) ;
 		}
 	) ;
-} ) ;
+} ) ;*/
