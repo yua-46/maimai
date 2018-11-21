@@ -135,7 +135,6 @@ h1 {
    float: left;
    position: absolute;
    left : 280px;
-   z-index: 1;
    /*top: 5px;*/
    font-size: 30px; 
    color: brown;
