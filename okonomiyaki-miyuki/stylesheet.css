@@ -166,6 +166,7 @@ h1 {
 ========================================= */
 .gaiyou:hover {
   opacity: 0.5;
+  color:#ffffff; 
 }
 .menu:hover {
   opacity: 0.5;
