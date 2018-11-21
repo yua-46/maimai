@@ -94,7 +94,7 @@ body {
 header {
   width: 1000px;
   height: 100px;
-  background-color: black;
+  background-image:url(https://i.gyazo.com/thumb/1000/5fc4fcbd4f7b9f19c2165955fbe599ea-jpg.jpg);
   position: relative;
   margin: 0 auto;
 }
@@ -107,7 +107,7 @@ h1 {
   top: 10px;
 }
 .niwase {
-  color: white;
+  color: black;
   font-size: 14px;
   position: absolute;
   right: 17px;
