@@ -133,6 +133,7 @@ h1 {
 }
 .gaiyou {
    float: left;
+   clear: both;
    position: absolute;
    left : 280px;
    /*top: 5px;*/
