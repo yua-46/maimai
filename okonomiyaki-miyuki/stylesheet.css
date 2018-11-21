@@ -135,6 +135,7 @@ h1 {
    float: left;
    position: absolute;
    left : 280px;
+   z-index: 5;
    /*top: 5px;*/
    font-size: 30px; 
    color: brown;
@@ -186,7 +187,8 @@ h1 {
 ========================================= */
 .gaiyou-btn {
   position: absolute;
-  left : 100px;
+  left : 150px;
+  z-index: 1;
 }
 
 /* ========================================
