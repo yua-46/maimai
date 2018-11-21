@@ -161,6 +161,9 @@ h1 {
   text-decoration:none;
   font: normal normal "Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W4", Osaka, sans-serif;
 }
+.clear {
+  clear: both;
+}
 /* ========================================
 	ここからヘッダーボタン設定
 ========================================= */
