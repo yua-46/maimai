@@ -152,7 +152,7 @@ header {
 	 text-decoration:none;
 	 font: normal normal "Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W4", Osaka, sans-serif;
   }
-  .menyu {
+  .menu {
 	float: left;
 	position: absolute;
 	left :  400px;
@@ -181,7 +181,7 @@ header {
   .gaiyou:hover {
 	opacity: 0.5;
   }
-  .menyu:hover {
+  .menu:hover {
 	opacity: 0.5;
   }
   .tennpo:hover {
@@ -217,7 +217,7 @@ main {
 	margin-top: 8px;
 	margin-left: 10px;
 }
-.menyu-wrapper{
+.menu-wrapper{
 	width: 980px;
 	height: 760px;
 	/*background-color: red;*/
@@ -232,14 +232,14 @@ main {
 	padding-left: 40px;
 	padding-top: 50px;
 }
-.menyulist1 {
+.menulist1 {
 	font-size: 18px;
 	/*background-color:white;*/
 	float:left;
 	width: 440px;
 	height: 660px;
 }
-.menyulist2 {
+.menulist2 {
 	font-size: 18px;
 	/*background-color:blue;*/
 	float:left;
@@ -264,7 +264,7 @@ dt {
 	margin-bottom: 0.7em;*/
 	border-bottom: 1px #a89f8a dotted;
 }
-.menyulist2 p {
+.menulist2 p {
 	margin-top: 5px;
 }
 .on {
