@@ -159,8 +159,7 @@ h1 {
 	ここからヘッダーボタン設定
 ========================================= */
 .gaiyou:hover {
-  opacity: 0.5;
-  box-shadow: 3px 3px black;
+  opacity: 0.8;
 }
 .menu:hover {
   opacity: 0.5;
