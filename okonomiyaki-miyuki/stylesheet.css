@@ -134,21 +134,21 @@ h1 {
 .gaiyou {
    float: left;
    position: absolute;
-   left : 180px;
+   left : 190px;
    top: 5px;
    text-decoration:none;
 }
 .menu {
   float: left;
   position: absolute;
-  left : 400px;
+  left : 410px;
   top: 5px;
   text-decoration:none;
 }
 .tennpo {
   float: left;
   position: absolute;
-  left : 620px;
+  left : 630px;
   top: 5px;
   text-decoration:none;
 }
