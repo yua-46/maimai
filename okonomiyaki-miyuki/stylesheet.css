@@ -141,22 +141,16 @@ h1 {
 .menu {
   float: left;
   position: absolute;
-  left :  400px;
+  left : 400px;
   top: 5px;
-  font-size: 30px;
-  color: brown; 
   text-decoration:none;
-  font: normal normal "Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W4", Osaka, sans-serif;
 }
 .tennpo {
   float: left;
   position: absolute;
   left : 630px;
   top: 5px;
-  font-size: 30px;
-  color: brown; 
   text-decoration:none;
-  font: normal normal "Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W4", Osaka, sans-serif;
 }
 .clear {
   clear: both;
