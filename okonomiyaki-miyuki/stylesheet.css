@@ -134,12 +134,9 @@ h1 {
 .gaiyou {
    float: left;
    position: absolute;
-   left : 280px;
-   /*top: 5px;*/
-   font-size: 30px; 
-   color: brown;
+   left : 200px;
+   /*top: 5px;*/ 
    text-decoration:none;
-   font: normal normal "Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W4", Osaka, sans-serif;
 }
 .menu {
   float: left;
