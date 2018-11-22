@@ -143,35 +143,26 @@ header {
 	position: relative;
   }
   .gaiyou {
+		float: left;
+		position: absolute;
+		left : 190px;
+		top: 5px;
+		text-decoration:none;
+ }
+ .menu {
 	 float: left;
 	 position: absolute;
-	 left : 280px;
+	 left : 410px;
 	 top: 5px;
-	 font-size: 30px; 
-	 color: brown;
 	 text-decoration:none;
-	 font: normal normal "Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W4", Osaka, sans-serif;
-  }
-  .menu {
-	float: left;
-	position: absolute;
-	left :  400px;
-	top: 5px;
-	font-size: 30px;
-	color: brown; 
-	text-decoration:none;
-	font: normal normal "Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W4", Osaka, sans-serif;
-  }
-  .tennpo {
-	float: left;
-	position: absolute;
-	left : 630px;
-	top: 5px;
-	font-size: 30px;
-	color: brown; 
-	text-decoration:none;
-	font: normal normal "Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W4", Osaka, sans-serif;
-  }
+ }
+ .tennpo {
+	 float: left;
+	 position: absolute;
+	 left : 630px;
+	 top: 5px;
+	 text-decoration:none;
+ }
   /* ========================================
 	  ここからヘッダーボタン設定
   ========================================= */
