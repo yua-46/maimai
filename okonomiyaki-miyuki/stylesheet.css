@@ -134,8 +134,8 @@ h1 {
 .gaiyou {
    float: left;
    position: absolute;
-   left : 200px;
-   /*top: 5px;*/ 
+   left : 180px;
+   top: 5px;
    text-decoration:none;
 }
 .menu {
