@@ -154,7 +154,7 @@ nav ul li:hover a{
     margin-right: 20px;
     padding: 10px;
 }
-h2 {
+h2,h3 {
     font-size: 17px;
 	font-weight: bold;
     color: #734339;
@@ -231,4 +231,22 @@ footer {
     color: #fff;
     text-align: center;
     line-height: 58px;
+}
+
+
+/* ========================================
+    メニュー一覧
+========================================= */
+
+#heading {
+    background: url(images/title.jpg);
+    width: 925px;
+    height: 70px;
+    border: 5px solid #fff;
+    margin-bottom: 20px;
+    font-size: 27px;
+    font-weight: bold;
+    color: #2f5734;
+    line-height: 70px;
+    padding-left: 23px;
 }
