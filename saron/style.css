@@ -269,3 +269,17 @@ footer {
 #left dd:last-child{
     margin-bottom: 0;
 }
+
+/* ========================================
+    コンタクトページ
+========================================= */
+
+
+#contact_text {
+    color: #927e7a;
+    font-size: 12px;
+    line-height: 18px;
+    background-color: #ffefea;
+    padding: 10px;
+    margin: 10px 0;
+}
