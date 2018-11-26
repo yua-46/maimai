@@ -283,3 +283,13 @@ footer {
     padding: 10px;
     margin: 10px 0;
 }
+
+td.form_title{
+    width: 131px;
+    height: 32px;
+    font-size: 15px;
+	color: #734339;
+}
+td.form_title label{
+    font-weight: bold;
+}
