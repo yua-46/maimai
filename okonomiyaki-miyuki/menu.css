@@ -235,7 +235,7 @@ main {
 }
 
 .menulist1 dl {
-	border-bottom: 1px #a89f8a dotted;
+	border-bottom: 1px dotted #a89f8a;
 }
 .menulist2 {
 	font-size: 18px;
