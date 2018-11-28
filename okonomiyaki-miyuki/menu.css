@@ -234,7 +234,7 @@ main {
 	height: 660px;
 }
 
-.menulist1 dl {
+.menulist1 dl dt dd{
 	border-bottom: 1px dotted #a89f8a;
 }
 .menulist2 {
