@@ -228,6 +228,7 @@ main {
 .menulist1 {
 	font-size: 18px;
 	/*background-color:white;*/
+	line-height: 18px;
 	float:left;
 	width: 440px;
 	height: 660px;
@@ -235,6 +236,7 @@ main {
 .menulist2 {
 	font-size: 18px;
 	/*background-color:blue;*/
+	line-height: 18px;
 	float:left;
 	width: 440px;
 	height: 660px;
@@ -242,7 +244,6 @@ main {
 }
 .menu_menu {
 	text-align: left;
-	line-height: 18px;
   padding-left: 18px;
   font-weight: bold;
 	color: #412818;
