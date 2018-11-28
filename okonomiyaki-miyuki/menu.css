@@ -246,7 +246,7 @@ main {
 	height: 660px;
 	margin-left: 20px;
 }
-.dt {
+.menulist1 dl dt {
 	text-align: left;
 	width: auto;
 	height: 20px;
