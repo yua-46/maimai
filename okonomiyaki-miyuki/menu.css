@@ -236,6 +236,8 @@ main {
 
 .menulist1 dl dt dd{
 	border-bottom: 1px dotted #a89f8a;
+	width: auto;
+	height: 20px;
 }
 .menulist2 {
 	font-size: 18px;
@@ -256,6 +258,8 @@ main {
 }
 .price {
 	text-align: right;
+	width: auto;
+	height: 20px;
 	font-weight: bold;
 	color: #ae0000;
 	font-size: 90%;
