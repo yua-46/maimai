@@ -233,6 +233,10 @@ main {
 	width: 440px;
 	height: 660px;
 }
+
+.menulist1 dl {
+	border-bottom: 1px #a89f8a dotted;
+}
 .menulist2 {
 	font-size: 18px;
 	/*background-color:blue;*/
@@ -256,7 +260,7 @@ main {
 	/*margin-top: -1.55em;
 	padding-bottom: 5px;
 	margin-bottom: 0.7em;*/
-	border-bottom: 1px #a89f8a dotted;
+
 }
 .menulist2 p {
 	margin-top: 5px;
