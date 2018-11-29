@@ -247,10 +247,11 @@ footer {
   background-color: black;
 }
 .footer-container {
-  width: 700px;
+  width: 500px;
 	margin: 0 auto;
 	position: relative;
-	padding: 20px 0;
+  padding: 20px 0;
+  background-color: blue;
 }
 
 .miyuki {
@@ -264,14 +265,14 @@ footer {
   font-size: 14px;
   float: left;
   letter-spacing: 2px;
-  line-height: 14px;
+  line-height: 18px;
 }
 .hirahuku2 {
   color: white;
   font-size: 14px;
   float: right;
   letter-spacing: 2px;
-  line-height: 14px;
+  line-height: 18px;
 }
 
 .pagetop a{
