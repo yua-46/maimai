@@ -91,7 +91,7 @@ body {
 ========================================= */
 .wrapper {
   width: 1000px;
-  height: 880px; /*ラッパーの高さ*/
+  height: auto; /*ラッパーの高さ*/
   margin: 0 auto;
 }
 /* ========================================
@@ -272,42 +272,41 @@ dt {
 /* ========================================
 	ここからfooter
 ========================================= */
+
 footer {
-	width: 1000px;
-	height: 200px;
-	background-color: black;
+  width: 1000px;
+  height: 200px;
+  background-color: black;
+  margin: 0 auto;
+}
+.footer-container {
+  width: 500px;
+  height: 160px;
 	margin: 0 auto;
-	position: relative;
-  }
-  .footer-container {
-	position: absolute;
-	top: 50%;;
-	left: 50%;;
-	-ms-transform: translate(-50%,-50%);
-	-webkit-transform : translate(-50%,-50%);
-	transform : translate(-50%,-50%);
-  }
-  .miyuki {
-	font-size: 17px;
-	letter-spacing: 2px;
-	color: white;
-	margin-bottom: 2px;
-  }
-  .niwase2 {
-	color: white;
-	font-size: 14px;
-	float: left;
-	letter-spacing: 2px;
-	line-height: 18px;
-  }
-  .hirahuku2 {
-	color: white;
-	font-size: 14px;
-	float: left;
-	margin-left: 50px;
-	letter-spacing: 2px;
-	line-height: 18px;
-  }
+  padding-top: 40px;
+}
+
+.miyuki {
+  font-size: 17px;
+  letter-spacing: 2px;
+  color: white;
+  margin-bottom: 2px;
+}
+.niwase2 {
+  color: white;
+  font-size: 14px;
+  float: left;
+  letter-spacing: 2px;
+  line-height: 18px;
+}
+.hirahuku2 {
+  color: white;
+  font-size: 14px;
+  float: right;
+  letter-spacing: 2px;
+  line-height: 18px;
+}
+
   
 /* ========================================
 	ここまでfooter
