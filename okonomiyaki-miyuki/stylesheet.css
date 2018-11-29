@@ -264,15 +264,14 @@ footer {
   font-size: 14px;
   float: left;
   letter-spacing: 2px;
-  line-height: 18px;
+  line-height: 14px;
 }
 .hirahuku2 {
   color: white;
   font-size: 14px;
   float: right;
-  margin-left: 50px;
   letter-spacing: 2px;
-  line-height: 18px;
+  line-height: 14px;
 }
 
 .pagetop a{
