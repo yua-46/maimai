@@ -222,7 +222,6 @@ main {
 		width: 980px;
 		height: 600px;
 		background-color:	white;
-		/*clear: both;*/
 		}
 /* ========================================
 	ここからtennpo-img
@@ -230,7 +229,6 @@ main {
 	.tennpo-img {
 			width: 450px;
 			height: 380px;
-			/*background-color: blue;*/
 			float: left;
 			margin-right: 10px;
 			margin-left: 10px;
@@ -249,36 +247,34 @@ main {
 /* ========================================
 	ここまでtennpo-img
 ========================================= */
-		dt {
-			text-align: left;
-			padding-left: 18px;
-			font-weight: bold;
-			color: #412818;
-			margin-top: 15px;
-		}
-		dd {
-			text-align: center;
-			font-size: 90%;
-			border-bottom: 1px #a89f8a dotted;
-		}
-		span {
-			font-size: 140%;
-			font-weight: bold;
-		}
+	dt {
+		text-align: left;
+		padding-left: 18px;
+		font-weight: bold;
+		color: #412818;
+		margin-top: 15px;
+	}
+	dd {
+		text-align: center;
+		font-size: 90%;
+		border-bottom: 1px #a89f8a dotted;
+	}
+	span {
+		font-size: 140%;
+		font-weight: bold;
+	}
 
 	.tennpo-map {
-			width: 500px;
-			height: 280px;
-			float: left;
-			/*background-color: yellow;*/
-		}
+		width: 500px;
+		height: 280px;
+		float: left;
+	}
 	.tennpo2-wrapper{
 		width: 980px;
 		height: 600px;
 		background-color: white;
 		margin-top: 20px;
-		/*clear: both;*/
-		}
+	}
 
 /* ========================================
 	ここからfooter
