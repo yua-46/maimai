@@ -163,27 +163,27 @@ header {
 	 top: 5px;
 	 text-decoration:none;
  }
-  /* ========================================
-	  ここからヘッダーボタン設定
-  ========================================= */
-  .sa {
+/* ========================================
+	ここからヘッダーボタン設定
+========================================= */
+.sa {
 	opacity: 0.5;
-  } 
-  .gaiyou:hover {
+} 
+.gaiyou:hover {
 	opacity: 0.5;
-  }
-  .menu:hover {
+}
+.menu:hover {
 	opacity: 0.5;
-  }
-  .tennpo:hover {
+}
+.tennpo:hover {
 	opacity: 0.5;
-  }
-	.sa:hover {
-		color: red;
-	}
-  /* ========================================
+}
+.sa:hover {
+	color: red;
+}
+/* ========================================
 	  ここまでヘッダーボタン設定
-  ========================================= */
+========================================= */
 
     
 /* ========================================
@@ -213,11 +213,9 @@ main {
 .menu-wrapper{
 	width: 980px;
 	height: 760px;
-	/*background-color: red;*/
 	margin-left: 10px;
 	position: absolute;
 	top: 60px;
-	/*clear: both;*/
 	background-image:url(https://i.gyazo.com/c3765432c458d1c30e27cdf7a6739312.jpg);
 	background-size: cover;
 	}
@@ -227,14 +225,12 @@ main {
 }
 .menulist1 {
 	font-size: 18px;
-	/*background-color:white;*/
 	float:left;
 	width: 440px;
 	height: 660px;
 }
 .menulist2 {
 	font-size: 18px;
-	/*background-color:blue;*/
 	float:left;
 	width: 440px;
 	height: 660px;
@@ -252,9 +248,6 @@ dt {
 	font-weight: bold;
 	color: #ae0000;
 	font-size: 90%;
-	/*margin-top: -1.55em;
-	padding-bottom: 5px;
-	margin-bottom: 0.7em;*/
 	border-bottom: 1px #a89f8a dotted;
 }
 .menulist2 p {
