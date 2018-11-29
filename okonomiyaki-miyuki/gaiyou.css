@@ -191,11 +191,9 @@ header {
 ========================================= */
   
   .header-img {
-	width: 980px;
-	height: 500px;
-	margin: 0 auto;
-	/*background-color: red;*/
-	/*border: 1px solid white;*/
+		width: 980px;
+		height: 500px;
+		margin: 0 auto;
 	}
 	.goaisatu {
 		background-color:	pink;
@@ -235,7 +233,7 @@ header {
 main {
 	/*background-color:pink;*/
 	width: 1000px;     /*コンテナの幅*/
-	height: 850px;    /*コンテナの高さ*/
+	height: 860px;    /*コンテナの高さ*/
 	background-image:url(https://i.gyazo.com/f8ca62ad419ab5d12b5cf51af27b7f34.jpg);
 	position: relative;
   }
