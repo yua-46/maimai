@@ -253,7 +253,6 @@ footer {
   height: 160px;
 	margin: 0 auto;
   padding-top: 40px;
-  background-color: blue;
 }
 
 .miyuki {
@@ -280,7 +279,7 @@ footer {
 .pagetop a{
   width: 78px;
 	height: 20px;
-	background-color: #63abd4;
+	background-color: black;
 	text-align: center;
 	color: white;
 	display: block;
