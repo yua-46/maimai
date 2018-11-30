@@ -98,7 +98,7 @@ body {
 header {
   width: 1000px;
   height: 100px;
-  background-image:url(images/head_image.jpg);
+  background-image:url(https://i.gyazo.com/thumb/1000/5fc4fcbd4f7b9f19c2165955fbe599ea-jpg.jpg);
   position: relative;
   margin: 0 auto;
 }
@@ -129,7 +129,7 @@ h1 {
 	ここまでヘッダー
 ========================================= */
 .header-btn {
-  background-image:url(images/head_image.jpg);
+  background-image:url(https://i.gyazo.com/thumb/1000/5fc4fcbd4f7b9f19c2165955fbe599ea-jpg.jpg);
   width: 1000px;
   height: 40px;
   text-align: center;
@@ -190,7 +190,7 @@ h1 {
   /*background-color:pink;*/
   width: 1000px;
   height: 1400px;
-  background-image:url(images/wrapper_image.jpg);
+  background-image:url(https://i.gyazo.com/f8ca62ad419ab5d12b5cf51af27b7f34.jpg);
   position: relative;
 }
 .imges {
