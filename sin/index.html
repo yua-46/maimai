@@ -3,28 +3,24 @@
 <head>
 <meta charset="UTF-8">
 <title>JavaScript Sample</title>
-<link rel="stylesheet" href="stylesheet.scss">
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<link rel="stylesheet" href="stylesheet.css">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript" src="test.js"></script>
 </head>
 <body>
-  <!-- Place somewhere in the <body> of your page -->
-<div class="flexslider" style="direction:rtl">
-        <ul class="slides">
-          <li>
-            <img src="images/img2.jpg" />
-          </li>
-          <li>
-            <img src="images/img3.jpg" />
-          </li>
-          <li>
-            <img src="slide3.jpg" />
-          </li>
-          <li>
-            <img src="slide4.jpg" />
-          </li>
-        </ul>
-      </div>
-    
-    <script type="text/javascript" src="test.js"></script>
+    <div class="slide-wrapper">
+            <h2 class="slide-title">ゆるい生活</h2>
+            <div class="hide-btn-wrapper">
+            <div class="hide-btn" id="hide-btn">あ</div>
+            </div>
+            <ul class="slides">
+            <li class="slide"><img src="images/img1.jpg"></li>
+            <li class="slide"><img src="images/img2.jpg"></li>
+            <li class="slide"><img src="images/img3.jpg"></li>
+            <li class="slide"><img src="images/img4.jpg"></li>
+            </ul>
+    </div>
+
+
 </body>
 </html>
