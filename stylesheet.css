@@ -70,16 +70,60 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.container {
-    margin: 0 auto;
-    padding: 40px;
-    width: 80%;
-    color: #333;
-    background: #419be0;
-  }
-  
-  .slick-slide {
-    text-align: center;
-    color: #419be0;
-    background: white;
-  }
+
+body {
+    position : relative;
+    overflow : hidden; /* スクロールバーを表示させない */
+}
+
+#container {
+    position : relative;
+    top  : 0px;
+    left : 0px;
+    margin-top  : -8px; /* 上に余白を作らない */
+    margin-left : -8px; /* 左に余白を作らない */
+}
+
+.imgWrapper /* 1枚の画像およびテキストをのせたdivコンテナ */ {
+    position : absolute;
+    z-index : 0;
+}
+
+.curtain {
+    position : absolute;
+    z-index : 1; /* 画像より手前 */
+    background-color : white;
+}
+
+.img {
+    position : absolute;
+    z-index : 0;
+}
+
+.textOverImg /* 画像にのせるテキスト */ {
+    position : absolute;
+    width  : 180px;
+    height :  30px;
+    color : white;
+    font-size : x-large;
+    text-align : center;
+    vertical-align : middle;
+}
+
+#menu {
+    position : relative;
+    overflow : hidden;
+    margin-left  : -4px;
+    margin-right : -4px;
+}
+
+.menuItem {
+    position : relative;
+    float : left;
+    text-align : center;
+}
+
+#menuItem1, #menuItem3 {
+    border-left  : solid 1px;
+    border-right : solid 1px;
+}
