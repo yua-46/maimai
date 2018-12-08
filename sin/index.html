@@ -3,38 +3,39 @@
 <head>
 <meta charset="UTF-8">
 <title>JavaScript Sample</title>
-<link rel="stylesheet" href="stylesheet.css">
+<link rel="stylesheet" href="stylesheet.scss">
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="./script/jquery.scrollify.js"></script>
 </head>
 <body>
-    <div id="container">
-            <div id="imgWrapper1" class="imgWrapper">
-                <img src="images/img1.jpg" id="img1" class="img">
-                <div class="textOverImg" id="text1">1枚目</div>
-            </div>
 
-            <div id="curtain1" class="curtain"></div>
-
-            <div id="imgWrapper2" class="imgWrapper">
-                <img src="images/img2.jpg" id="img2" class="img">
-                <div class="textOverImg" id="text2">2枚目 = my tune</div>
-            </div>
-
-            <div id="curtain2" class="curtain"></div>
-
-            <div id="imgWrapper3" class="imgWrapper">
-                <img src="images/img3.jpg" id="img3" class="img">
-                <div class="textOverImg" id="text3">3枚目 - 777<br>2行目</div>
-            </div>
-
-            <div id="curtain3" class="curtain"></div>
-        </div>
-        <div id="menu">
-            <div class="menuItem" id="menuItem1">メニュー1</div>
-            <div class="menuItem" id="menuItem2">メニュー2</div>
-            <div class="menuItem" id="menuItem3">メニュー3</div>
-        </div>
-    
+    <div class="main">
+            <section class="section section-blue js-section" data-section-name="section1">
+                <div class="section-content">
+                <h2>section 1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor reprehenderit, labore nostrum hic. Natus hic corporis, delectus vero voluptatem maxime voluptate tempora expedita quo iure atque vitae deserunt culpa quibusdam!</p>
+                </div>
+            </section>
+            <section class="section section-red js-section" data-section-name="section2">
+                <div class="section-content">
+                <h2>section 2</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab quae, sint dicta quod, nemo possimus! Impedit sed rerum quidem, voluptate possimus quo accusamus vitae necessitatibus incidunt ut fugit nihil voluptatem.</p>
+                <h3>heading</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab quae, sint dicta quod, nemo possimus! Impedit sed rerum quidem, voluptate possimus quo accusamus vitae necessitatibus incidunt ut fugit nihil voluptatem.</p>
+                <h3>heading</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab quae, sint dicta quod, nemo possimus! Impedit sed rerum quidem, voluptate possimus quo accusamus vitae necessitatibus incidunt ut fugit nihil voluptatem.</p>
+                <h3>heading</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab quae, sint dicta quod, nemo possimus! Impedit sed rerum quidem, voluptate possimus quo accusamus vitae necessitatibus incidunt ut fugit nihil voluptatem.</p>
+                </div>
+            </section>
+            <section class="section section-blue js-section" data-section-name="section3">
+                <div class="section-content">
+                <h2>section 3</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor reprehenderit, labore nostrum hic. Natus hic corporis, delectus vero voluptatem maxime voluptate tempora expedita quo iure atque vitae deserunt culpa quibusdam!</p>
+                </div>
+            </section>
+            <ul class="pager" id="js-pager"></ul>
+    </div>
 
     <script type="text/javascript" src="test.js"></script>
 </body>
