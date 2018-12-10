@@ -36,10 +36,9 @@
 .toTop {
 	margin-top: 800px;
 	margin-right: 30px;
-	display: inline-block;
 	float: right;
-  background: skyblue;
-  padding: 15px;
+	background: skyblue;
+	padding: 15px;
 	color: #fff;
 	border-radius: 50%;
   cursor: pointer;
