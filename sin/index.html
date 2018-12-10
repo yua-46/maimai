@@ -2,32 +2,22 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>JavaScript Sample</title>
+<title>季節の移ろい</title>
 <link rel="stylesheet" href="stylesheet.css">
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 <script type="text/javascript" src="test.js"></script>
 </head>
 <body>
-    <div class="slide-wrapper">
-        <h2 class="slide-title">季節</h2>
+    <div id="slide-wrapper">
+        <h1>写真館</h1>
           <div class="change-btn-wrapper">
-            <div class="change-btn prev-btn">← 前へ</div>
-            <div class="change-btn next-btn">次へ →</div>
-          </div>
-          <ul class="slides">
-            <li class="slide active"><img src="images/img1.jpg"></li>
-            <li class="slide"><img src="images/img2.jpg"></li>
-            <li class="slide"><img src="images/img3.jpg"></li>
-            <li class="slide"><img src="images/img4.jpg"></li>
-            <li class="slide"><img src="images/img5.jpg"></li>
-          </ul>
-          <div class="index-btn-wrapper">
-            <div class="index-btn"></div>
-            <div class="index-btn"></div>
-            <div class="index-btn"></div>
-            <div class="index-btn"></div>
-            <div class="index-btn"></div>
-          </div>
+          <p id="slideshow">
+            <img src="images/img1.jpg" alt="画像1" class="active">
+            <img src="images/img2.jpg" alt="画像2">
+            <img src="images/img3.jpg" alt="画像3">
+            <img src="images/img4.jpg" alt="画像4">
+            <img src="images/img5.jpg" alt="画像5">
+         </p>
         </div>
 
 </body>
