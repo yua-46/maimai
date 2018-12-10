@@ -18,3 +18,13 @@ function slideSwitch() {
 $(function() {
    setInterval( "slideSwitch()", 4000 );
 });
+
+
+$(function(){
+    $('.toTop').click(function () {
+      $('body,html').animate({
+        scrollTop: 0
+      }, 800);
+      return false;
+    });
+  });
