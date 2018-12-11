@@ -1,24 +1,85 @@
-/*! sanitize.css v3.3.0 | CC0 1.0 Public Domain | github.com/10up/sanitize.css */
-/*
- * Normalization
- */
 
- @charset "utf-8";
+@charset "utf-8";
 
-#slide-wrapper h1 {
+/* ========================================
+    リセットcss
+========================================= */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-style:normal;
+	font-weight: normal;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+html{overflow-y: scroll;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {content: ''; content: none;}
+input, textarea,{margin: 0; padding: 0;}
+ol, ul{list-style:none;}
+table{border-collapse: collapse; border-spacing:0;}
+caption, th{text-align: left;}
+a:focus {outline:none;}
+
+/* micro clearfix */
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+.cf:after {clear: both;}
+.cf {*zoom: 1;}
+
+
+/*========================================
+    レイアウト
+========================================= */
+
+header {
+	width: 100%;
+	height: 100px;
+	background-color: pink;
+}
+
+header h1 {
+	width: 100%;
+	height: 100px;
 	font-size: 30px;
 	text-align: center;
+	line-height: 100px;
 }
+
+#change-btn-wrapper {
+	width: 100%;
+	height: 750px;
+}
+
 #slideshow {
 	position: relative;
 }
 #slideshow img {
-	width:  1000px; /* 画像の横幅に合わせて記述 */
-	height: auto; /* 画像の高さに合わせて記述 */
+	width:  100%; /* 画像の横幅に合わせて記述 */
+	height: 750px; /* 画像の高さに合わせて記述 */
 	position: absolute;
 	top: 0;
-	left: 1%;
-	right: 1%;
+	left: 0;
 	z-index: 8;
 	opacity: 0.0;
 	margin: 0 auto;
@@ -32,16 +93,53 @@
 	z-index: 9;
 }
 
+.container {
+	width: 1000px;
+	height: 800px;
+	background-color: red;
+	margin: 0 auto;
+}
 
+/*========================================
+    left
+========================================= */
+
+#twitter-left {
+	width: 800px;
+	height: 500px;
+	float: left;
+}
+
+
+/*========================================
+    right
+========================================= */
+
+#right {
+	width: 300px;
+	height: 500px;
+	background-color: blue;
+}
+
+
+
+/*========================================
+    ボタン
+========================================= */
+
+footer {
+	width: 100%;
+	height: 200px;
+	background-color: pink;
+}
 .toTop {
-	margin-top: 800px;
-	margin-right: 30px;
+	margin-right: 100px;
 	float: right;
 	background: skyblue;
 	padding: 15px;
 	color: #fff;
 	border-radius: 50%;
-  cursor: pointer;
+  	cursor: pointer;
 }
 
 .clear {

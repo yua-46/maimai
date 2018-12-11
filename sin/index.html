@@ -2,24 +2,42 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>季節の移ろい</title>
+<title>National </title>
 <link rel="stylesheet" href="stylesheet.css">
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 <script type="text/javascript" src="test.js"></script>
 </head>
 <body>
-    <div id="slide-wrapper">
-        <h1>写真館</h1>
-          <div class="change-btn-wrapper">
-          <p id="slideshow">
-            <img src="images/img1.jpg" alt="画像1" class="active">
-            <img src="images/img2.jpg" alt="画像2">
-            <img src="images/img3.jpg" alt="画像3">
-            <img src="images/img4.jpg" alt="画像4">
-            <img src="images/img5.jpg" alt="画像5">
-         </p>
-        </div>
+    <header>
+        <h1>National </h1>
+    </header>
 
-    <p class="toTop clear">TOP</p>
+    <div id="change-btn-wrapper" class="clear">
+        <p id="slideshow">
+        <img src="images/img1.jpg" alt="画像1" class="active">
+        <img src="images/img2.jpg" alt="画像2">
+        <img src="images/img3.jpg" alt="画像3">
+        <img src="images/img4.jpg" alt="画像4">
+        <img src="images/img5.jpg" alt="画像5">
+        </p>
+    </div><!-- change-btn-wrapper -->
+
+    <div class="container" class="clear">
+        <div id="twitter-left" class="clear">
+            <a class="twitter-timeline" data-lang="ja" data-width="500" data-height="800" data-theme="light" href="https://twitter.com/TwitterDev/timelines/539487832448843776?ref_src=twsrc%5Etfw">National Park Tweets - Curated tweets by TwitterDev</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div><!-- twitter-left -->
+
+        <div id="right" class="clear">
+
+        </div><!-- right -->
+
+    </div><!-- container -->
+
+    
+<footer class="clear">
+        <p class="toTop">TOP</p>
+</footer>
+
 </body>
 </html>
