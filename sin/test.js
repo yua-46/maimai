@@ -33,7 +33,7 @@ $(function() {
     },
       function(){
       $(this).animate({
-        'font-size': '16px'
+        'font-size': '17px'
       },300);
     });
 });

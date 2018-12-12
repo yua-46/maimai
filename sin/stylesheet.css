@@ -195,11 +195,11 @@ footer {
 	background: rgba(94, 144, 255, 0.75);
 	width: 42px;
 	height: 32px;
-	padding-top: 12px;
+	padding-top: 13px;
 	border-radius: 50%;
 	color: #e3e3e3;
-	font-size: 16px;
-	line-height: 16px;
+	font-size: 17px;
+	line-height: 17px;
 	margin: 15px 15px 0 15px;
 }
   
@@ -209,9 +209,9 @@ footer {
 }
 
 .copy {
-	font-size: 13px;
+	font-size: 10px;
 	color: white;
-	padding-top: 10px;
+	padding-top: 13px;
 }
 
 .toTop {
