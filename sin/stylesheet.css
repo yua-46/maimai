@@ -194,13 +194,13 @@ footer {
 	display: inline-block;
 	background: rgba(94, 144, 255, 0.75);
 	width: 42px;
-	height: 32px;
+	height: 30px;
 	padding-top: 13px;
 	border-radius: 50%;
 	color: #e3e3e3;
 	font-size: 17px;
 	line-height: 17px;
-	margin: 15px 15px 0 15px;
+	margin: 15px 13px 0 13px;
 }
   
 .social-icon:hover{
