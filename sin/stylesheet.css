@@ -188,6 +188,13 @@ footer {
 	right: 50px;
 }
 
+.copy {
+	font-size: 13px;
+	text-align: center;
+	color: white;
+	padding-top: 125px;
+}
+
 .cf {
 	clear: both;
 }
