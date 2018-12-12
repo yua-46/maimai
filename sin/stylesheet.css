@@ -81,8 +81,8 @@ header h1 {
 	position: relative;
 }
 #slideshow img {
-	width:  100%; /* 画像の横幅に合わせて記述 */
-	height: 750px; /* 画像の高さに合わせて記述 */
+	width:  100%;
+	height: 750px;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -215,14 +215,15 @@ footer {
 }
 
 .toTop {
+	font-size: 18px;
 	float: right;
 	background: skyblue;
-	padding: 15px;
+	padding: 20px;
 	color: #fff;
 	border-radius: 50%;
 	cursor: pointer;
 	position: absolute;
-	top: -60px;
+	top: -70px;
 	right: 50px;
 }
 
