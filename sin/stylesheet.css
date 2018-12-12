@@ -51,6 +51,12 @@ a:focus {outline:none;}
 /*========================================
     レイアウト
 ========================================= */
+body {
+	width: 100%;
+	height: auto;
+}
+
+
 
 header {
 	width: 100%;
@@ -172,10 +178,42 @@ header h1 {
 
 footer {
 	width: 100%;
-	height: 150px;
-	background-color: skyblue;
+	height: 130px;
+	background-color: gray;
 	position: relative;
 }
+
+.follow-us {
+	width: 100%;
+	height: 100px;
+	margin-top: 15px;
+	text-align: center;
+}
+.social-icon {
+	vertical-align: top;
+	display: inline-block;
+	background: rgba(94, 144, 255, 0.75);
+	width: 42px;
+	height: 32px;
+	padding-top: 12px;
+	border-radius: 50%;
+	color: #e3e3e3;
+	font-size: 16px;
+	line-height: 16px;
+	margin: 15px 15px 0 15px;
+}
+  
+.social-icon:hover{
+	color: #e3e3e3;
+	background-color: rgb(94, 144, 255);
+}
+
+.copy {
+	font-size: 13px;
+	color: white;
+	padding-top: 10px;
+}
+
 .toTop {
 	float: right;
 	background: skyblue;
@@ -188,12 +226,6 @@ footer {
 	right: 50px;
 }
 
-.copy {
-	font-size: 13px;
-	text-align: center;
-	color: white;
-	padding-top: 125px;
-}
 
 .cf {
 	clear: both;

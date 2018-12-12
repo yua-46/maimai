@@ -17,15 +17,24 @@ function slideSwitch() {
 
 $(function() {
    setInterval( "slideSwitch()", 4000 );
-});
 
-
-$(function(){
-    $('.toTop').click(function () {
+   $('.toTop').click(function () {
       $('body,html').animate({
         scrollTop: 0
       }, 800);
       return false;
     });
-  });
+
+    $('.social-icon').hover(
+      function(){
+      $(this).animate({
+        'font-size': '22px'
+      },300);
+    },
+      function(){
+      $(this).animate({
+        'font-size': '16px'
+      },300);
+    });
+});
 
