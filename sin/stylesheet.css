@@ -93,7 +93,7 @@ header h1 {
 	z-index: 9;
 }
 
-.container {
+#container {
 	width: 1000px;
 	height: 800px;
 	background-color: red;
@@ -115,16 +115,18 @@ header h1 {
     right
 ========================================= */
 
-#right {
-	width: 300px;
-	height: 500px;
+#right-wrapper {
+	width: 400px;
+	height: 300px;
 	background-color: blue;
+	float: right;
+	margin-right: 50px;
 }
 
 
 
 /*========================================
-    ボタン
+    フッター
 ========================================= */
 
 footer {
@@ -133,7 +135,8 @@ footer {
 	background-color: pink;
 }
 .toTop {
-	margin-right: 100px;
+	margin-top: -60px;
+	margin-right: 50px;
 	float: right;
 	background: skyblue;
 	padding: 15px;
@@ -142,6 +145,6 @@ footer {
   	cursor: pointer;
 }
 
-.clear {
+.cf {
 	clear: both;
 }
