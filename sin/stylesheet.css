@@ -220,7 +220,7 @@ footer {
 	background: skyblue;
 	padding: 20px;
 	color: #fff;
-	border-radius: 50%;
+	border-radius: 10%;
 	cursor: pointer;
 	position: absolute;
 	top: -70px;
