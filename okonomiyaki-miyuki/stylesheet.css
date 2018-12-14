@@ -181,15 +181,15 @@ h1 {
 .header-img {
   width: 1000px;
   height: 800px;
-  /*border: 1px solid white;*/
+  background-image:url(https://i.gyazo.com/f8ca62ad419ab5d12b5cf51af27b7f34.jpg);
+  text-align: center;
+  padding-top: 10px;
 }
-
 
 /* ========================================
 	ここからメニュー
 ========================================= */
 .container {
-  /*background-color:pink;*/
   width: 1000px;
   height: 1400px;
   background-image:url(https://i.gyazo.com/f8ca62ad419ab5d12b5cf51af27b7f34.jpg);
