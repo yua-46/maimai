@@ -36,5 +36,11 @@ $(function() {
         'font-size': '17px'
       },300);
     });
+
+    $('.slider').slick({
+      autoplay:true,
+      autoplaySpeed:5000,
+      dots:true,
+  });
 });
 
