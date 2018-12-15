@@ -1,23 +1,4 @@
-function slideSwitch() {
-   var $active = $('#slideshow img.active');
-
-   if ( $active.length == 0 ) $active = $('#slideshow img:last');
-
-   var $next =  $active.next().length ? $active.next()
-      : $('#slideshow img:first');
-
-   $active.addClass('last-active');
-
-   $next.css({opacity: 0.0})
-      .addClass('active')
-      .animate({opacity: 1.0}, 1000, function() {
-           $active.removeClass('active last-active');
-      });
-}
-
 $(function() {
-   setInterval( "slideSwitch()", 4000 );
-
    $('.toTop').click(function () {
       $('body,html').animate({
         scrollTop: 0
@@ -37,10 +18,20 @@ $(function() {
       },300);
     });
 
+
     $('.slider').slick({
-      autoplay:true,
-      autoplaySpeed:5000,
+      infinite: true,
       dots:true,
-  });
+      slidesToShow: 1,
+      centerMode: true, //要素を中央寄せ
+      centerPadding:'100px', //両サイドの見えている部分のサイズ
+      autoplay:true, //自動再生
+      responsive: [{
+           breakpoint: 480,
+                settings: {
+                     centerMode: false,
+           }
+      }]
+ });
 });
 
