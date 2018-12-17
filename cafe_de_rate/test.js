@@ -9,7 +9,7 @@ $(function() {
     $('.social-icon').hover(
       function(){
       $(this).animate({
-        'font-size': '22px'
+        'font-size': '23px'
       },300);
     },
       function(){
