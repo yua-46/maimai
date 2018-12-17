@@ -44,15 +44,16 @@ $(function() {
       },300);
     });
 
-    $('#topics ol li a').hover(
+
+    $('#other ol li img').hover(
       function(){
       $(this).animate({
-        'color': 'red'
+        'opacity': '0.5'
       },300);
     },
       function(){
       $(this).animate({
-        'color': 'black'
+        'opacity': '1'
       },300);
     });
 
