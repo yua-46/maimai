@@ -19,6 +19,33 @@ $(function() {
     });
 
 
+    $('.header_btn a').hover(
+      function(){
+      $(this).animate({
+        'color': 'red'
+      },300);
+    },
+      function(){
+      $(this).animate({
+        'color': 'black'
+      },300);
+    });
+
+    
+    $('.header_btn2 a').hover(
+      function(){
+      $(this).animate({
+        'color': 'red'
+      },300);
+    },
+      function(){
+      $(this).animate({
+        'color': 'white'
+      },300);
+    });
+
+
+
     $('.slider').slick({
       infinite: true,
       dots:true,

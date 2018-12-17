@@ -52,8 +52,9 @@ a:focus {outline:none;}
     レイアウト
 ========================================= */
 body {
-	width: 100%;
+	width: 1200px;;
 	height: auto;
+	margin: 0 auto;
 }
 
 /*========================================
@@ -98,7 +99,6 @@ header {
 	width: 1200px;
 	height: 200px;
 	/*text-shadow: 1px 1px 2px silver;*/
-	background-color: pink;
 	margin: 0 auto;
 }
 
@@ -140,7 +140,7 @@ h1 img{
 
 .slider{
     margin: 0 auto;
-	width: 80%;
+	width: 100%;
 }
 .slider img{
     height: 650px;
