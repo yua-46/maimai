@@ -216,7 +216,7 @@ p {
 
 
 /*========================================
-    right
+    topics
 ========================================= */
 
 h3 {
@@ -257,6 +257,29 @@ h3 {
 	line-height: 13px;
 	margin-left: 20px;
 }
+
+
+/*========================================
+    other
+========================================= */
+
+#other {
+	margin: 0 auto;
+	width: 1000px;
+	height: auto;
+}
+
+#other ol li{
+	float: left;
+	background-color: red;
+}
+
+
+#other ol li img{
+	width: 300px;
+	height: 150px;
+}
+
 
 
 
