@@ -44,6 +44,19 @@ $(function() {
       },300);
     });
 
+    $('#topics ol li a').hover(
+      function(){
+      $(this).animate({
+        'color': 'red'
+      },300);
+    },
+      function(){
+      $(this).animate({
+        'color': 'black'
+      },300);
+    });
+
+
 
 
     $('.slider').slick({
