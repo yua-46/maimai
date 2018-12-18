@@ -230,6 +230,9 @@ h3 {
 	margin-top: 30px;
 	margin-left: 100px;
 }
+#topics {
+	position: relative;
+}
 
 #topics ol{
 	margin: 0 auto;
@@ -266,6 +269,15 @@ h3 {
 #topics ol li a:hover {
 	color:red;
 }
+
+.bb img {
+	width: auto;
+	height: 100px;
+	position: absolute;
+	bottom: 2px;
+	right: 100px;
+}
+
 
 /*========================================
     other
