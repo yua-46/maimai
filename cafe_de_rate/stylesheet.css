@@ -64,7 +64,6 @@ a:focus {outline:none;}
 }
 
 
-
 body {
 	width: 1200px;;
 	height: auto;
@@ -89,7 +88,6 @@ header {
 	position: fixed;
 	top: -56px;
 	left: 0;
-	
 }
 .cb{
 	width: 600px;
@@ -115,6 +113,7 @@ header {
 	height: 200px;
 	/*text-shadow: 1px 1px 2px silver;*/
 	margin: 0 auto;
+	position: relative;
 }
 
 h1 img{
@@ -146,7 +145,13 @@ h1 img{
 	font-size: 11px;
 }
 
-
+.aa img {
+	width: auto;
+	height: 100px;
+	position: absolute;
+	top: 10px;
+	right: 50px;
+}
 
 
 /*========================================
@@ -272,7 +277,6 @@ h3 {
 	height: 250px;
 	margin-top: 70px;
 	margin-bottom: 70px;
-	background-color: skyblue;
 }
 #other ol {
 	text-align: center;
@@ -308,7 +312,7 @@ h3 {
 	height: 160px;
 	position: fixed;
 	bottom: 130px;
-	right: 0;
+	left: 0;
 	text-align: center;
 	background-color:white;
 	z-index: 200;
@@ -320,8 +324,8 @@ h3 {
 	font-size: 12px;
 	line-height: 18px;
 	color: white;
-	border: 1px solid green;
-	background-color: green;
+	border: 1px solid skyblue;
+	background-color: skyblue;
 }
 .social-icon{
 	vertical-align: top;
@@ -351,28 +355,52 @@ h3 {
 footer {
 	width: 100%;
 	height: 130px;
-	background-color: gray;
-	position: relative;
+	line-height: 130px;
 }
+
+.footer_container {
+	width: 100%;
+	height: 50px;
+	display: inline-block;
+	border: 1px dotted black;
+}
+
 
 .copy {
 	font-size: 10px;
-	color: white;
-	padding-top: 90px;
+	line-height: 50px;
+	color: black;
 	text-align: center;
 }
 
-.toTop {
-	font-size: 18px;
-	float: right;
-	background: skyblue;
-	padding: 20px;
+#pageTop {
+	position: fixed;
+	bottom: 37px;
+	right: 20px;
+}
+  
+#pageTop i {
+	padding-top: 6px
+}
+  
+#pageTop a {
+	display: inline-block;
+	z-index: 999;
+	margin: 0 auto;
+	padding: 8px;
+	border-radius: 30px;
+	width: 35px;
+	height: 35px;
+	background-color:#808080;
 	color: #fff;
-	border-radius: 10%;
-	cursor: pointer;
-	position: absolute;
-	top: 10px;
-	right: 50px;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+}
+   
+#pageTop a:hover {
+	text-decoration: none;
+	opacity: 0.7;
 }
 
 
