@@ -65,11 +65,16 @@ a:focus {outline:none;}
 
 
 body {
-	width: 1200px;;
+	width: 100%;
 	height: auto;
 	margin: 0 auto;
 }
 
+#wrapper {
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+}
 
 /*========================================
     header
@@ -325,8 +330,8 @@ h3 {
 	width: 80px;
 	height: 160px;
 	position: fixed;
-	bottom: 130px;
-	left: 0;
+	bottom: 150px;
+	right: 0;
 	text-align: center;
 	background-color:white;
 	z-index: 200;
