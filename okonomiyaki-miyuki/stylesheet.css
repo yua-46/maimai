@@ -101,7 +101,7 @@ header {
   height: 150px;
   background:url("images/footer.jpg");
   margin: 0 auto;
-  border-bottom: 4px solid black;
+  border-bottom: 4px solid #B8860B;
 }
 .header_container {
   position: relative;
@@ -142,16 +142,16 @@ h1 {
   width: 1000px;
   height: 40px;
   margin: 0 auto;
-  
-
 }
 
 .header-btn ul  {
-  margin-left: 250px;
+  margin-left: 240px;
 }
 .header-btn ul li {
-
-   float: left;
+  margin-top: 10px;
+  border-left: 1px solid #434343;
+  padding: 0 5px;
+  float: left;
 }
 
 .header-btn ul li a{
@@ -159,8 +159,7 @@ h1 {
   font-size: 20px;
   text-decoration:none;
   padding: 0 30px;
-  line-height: 40px;
-  
+  line-height: 20px;
 }
 .clear {
   clear: both;
@@ -174,6 +173,9 @@ h1 {
   border-radius: 5px;
 }
 
+.header-btn ul li:first-child {
+  border-left: none;
+}
 /* ========================================
 	ここまでヘッダーボタン設定
 ========================================= */
