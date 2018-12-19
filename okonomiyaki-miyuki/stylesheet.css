@@ -81,9 +81,10 @@ body {
   color: rgba(0, 0, 0, 0.8);
   font-family: "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
   font-size: 16px;
-  background-color: black;
+  background-color: white;
   width: 100%;
   height: 100%;
+  background-image:url(https://i.gyazo.com/f8ca62ad419ab5d12b5cf51af27b7f34.jpg);
 }
 
 .wrapper {
@@ -97,19 +98,20 @@ body {
 ========================================= */
 header {
   width: 100%;
-  height: 140px;
- 
+  height: 150px;
+  background:url("images/footer.jpg");
   margin: 0 auto;
+  border-bottom: 4px solid black;
 }
 .header_container {
   position: relative;
   width: 1000px;
   height: 100px;
-  background-image:url(https://i.gyazo.com/thumb/1000/5fc4fcbd4f7b9f19c2165955fbe599ea-jpg.jpg);
+
   margin: 0 auto;
 }
 h1 {
-  color:  #aca58f;
+  color: black;
   font-size: 14px;
   position: absolute;
   left: 17px;
@@ -130,33 +132,35 @@ h1 {
   top: 30px;
 }
 
+/* ========================================
+	header-btn
+========================================= */
+
+
 .header-btn {
-  background-image:url(https://i.gyazo.com/thumb/1000/5fc4fcbd4f7b9f19c2165955fbe599ea-jpg.jpg);
+
   width: 1000px;
   height: 40px;
   margin: 0 auto;
-  position: relative;
+  
+
 }
-.gaiyou {
+
+.header-btn ul  {
+  margin-left: 250px;
+}
+.header-btn ul li {
+
    float: left;
-   position: absolute;
-   left : 190px;
-   top: 5px;
-   text-decoration:none;
 }
-.menu {
-  float: left;
-  position: absolute;
-  left : 410px;
-  top: 5px;
+
+.header-btn ul li a{
+  color: black;
+  font-size: 20px;
   text-decoration:none;
-}
-.tennpo {
-  float: left;
-  position: absolute;
-  left : 630px;
-  top: 5px;
-  text-decoration:none;
+  padding: 0 30px;
+  line-height: 40px;
+  
 }
 .clear {
   clear: both;
@@ -164,14 +168,10 @@ h1 {
 /* ========================================
 	ここからヘッダーボタン設定
 ========================================= */
-.gaiyou:hover {
+.header-btn ul li a:hover{
   opacity: 0.5;
-}
-.menu:hover {
-  opacity: 0.5;
-}
-.tennpo:hover {
-  opacity: 0.5;
+  background-color: white;
+  border-radius: 5px;
 }
 
 /* ========================================
@@ -183,7 +183,7 @@ h1 {
   height: 800px;
   background-image:url(https://i.gyazo.com/f8ca62ad419ab5d12b5cf51af27b7f34.jpg);
   text-align: center;
-  padding-top: 10px;
+  
 }
 
 /* ========================================
@@ -243,9 +243,9 @@ h3 {
 	heade2-btn
 ========================================= */
 .header2-btn {
-  width: 1000px;
+  width: 100%;
   height: 50px;
-  background-color: gray;
+  background-color: black;
   margin: 0 auto;
 }
 .header2-btn ul {
@@ -280,9 +280,10 @@ h3 {
 
 footer {
   width: 100%;
-  height: 180px;
-  background-color: black;
+  height: 200px;
+  background-color: white;
   margin: 0 auto;
+  background:url("images/footer.jpg");
 }
 .footer-container {
   width: 500px;
@@ -295,18 +296,18 @@ footer {
 .miyuki {
   font-size: 17px;
   letter-spacing: 2px;
-  color: white;
+  color: black;
   margin-bottom: 2px;
 }
 .niwase2 {
-  color: white;
+  color: black;
   font-size: 14px;
   float: left;
   letter-spacing: 2px;
   line-height: 18px;
 }
 .hirahuku2 {
-  color: white;
+  color: black;
   font-size: 14px;
   float: right;
   letter-spacing: 2px;
@@ -331,6 +332,7 @@ footer {
 .copy {
 	font-size: 12px;
 	padding-bottom: 10px;
-	color: white;
-	text-align: center;
+  color: black;
+  text-align: center;
+  background:url("images/footer.jpg");
 }
