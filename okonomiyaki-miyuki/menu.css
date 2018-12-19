@@ -74,118 +74,107 @@ body {
 	ここからbody
 ========================================= */
 body {
-	color: rgba(0, 0, 0, 0.8);
-	font-family: "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
-	font-size: 16px;
-	background-color: black;
-	width: 100%;
-	height: 100%;
-  }
+  color: rgba(0, 0, 0, 0.8);
+  font-family: "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
+  font-size: 16px;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  background-image:url(https://i.gyazo.com/f8ca62ad419ab5d12b5cf51af27b7f34.jpg);
+}
 
-/* ========================================
-	ここまでbody
-========================================= */
-
-/* ========================================
-	ここからwrapper
-========================================= */
 .wrapper {
   width: 1000px;
-  height: auto; /*ラッパーの高さ*/
+  height: auto;
   margin: 0 auto;
 }
-/* ========================================
-	ここまでwrapper
-========================================= */
 
 /* ========================================
 	ここからヘッダー
 ========================================= */
 header {
-	width: 1000px;
-	height: 100px;
-	background-image:url(https://i.gyazo.com/thumb/1000/5fc4fcbd4f7b9f19c2165955fbe599ea-jpg.jpg);
-	position: relative;
-	margin: 0 auto;
-  }
-  
- .sa {
-	color: black;
-	font-size: 14px;
-	position: absolute;
-	left: 17px;
-	top: 10px;
-	text-decoration:none;
-  }
-  .niwase {
-	color: black;
-	font-size: 14px;
-	position: absolute;
-	right: 17px;
-	top: 10px;
-  }
-  .hirahuku {
-	color: block;
-	font-size: 14px;
-	position: absolute;
-	right: 17px;
-	top: 30px;
-  }
-  
-  /* ========================================
-	  ここまでヘッダー
-  ========================================= */
-  .header-btn {
-	background-image:url(https://i.gyazo.com/thumb/1000/5fc4fcbd4f7b9f19c2165955fbe599ea-jpg.jpg);
-	width: 1000px;
-	height: 40px;
-	text-align: center;
-	position: relative;
-  }
-  .gaiyou {
-		float: left;
-		position: absolute;
-		left : 190px;
-		top: 5px;
-		text-decoration:none;
- }
- .menu {
-	 float: left;
-	 position: absolute;
-	 left : 410px;
-	 top: 5px;
-	 text-decoration:none;
- }
- .tennpo {
-	 float: left;
-	 position: absolute;
-	 left : 630px;
-	 top: 5px;
-	 text-decoration:none;
- }
+  width: 100%;
+  height: 150px;
+  background:url("images/footer.jpg");
+  margin: 0 auto;
+  border-bottom: 4px solid #B8860B;
+}
+.header_container {
+  position: relative;
+  width: 1000px;
+  height: 100px;
+
+  margin: 0 auto;
+}
+h1 {
+  color: black;
+  font-size: 14px;
+  position: absolute;
+  left: 17px;
+  top: 10px;
+}
+.niwase {
+  color: black;
+  font-size: 14px;
+  position: absolute;
+  right: 17px;
+  top: 10px;
+}
+.hirahuku {
+  color: block;
+  font-size: 14px;
+  position: absolute;
+  right: 17px;
+  top: 30px;
+}
+
+/* ========================================
+	header-btn
+========================================= */
+
+
+.header-btn {
+
+  width: 1000px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+.header-btn ul  {
+  margin-left: 240px;
+}
+.header-btn ul li {
+  margin-top: 10px;
+  border-left: 1px solid #434343;
+  padding: 0 5px;
+  float: left;
+}
+
+.header-btn ul li a{
+  color: black;
+  font-size: 20px;
+  text-decoration:none;
+  padding: 0 30px;
+  line-height: 20px;
+}
+.clear {
+  clear: both;
+}
 /* ========================================
 	ここからヘッダーボタン設定
 ========================================= */
-.sa {
-	opacity: 0.5;
-} 
-.gaiyou:hover {
-	opacity: 0.5;
+.header-btn ul li a:hover{
+  opacity: 0.5;
+  background-color: white;
+  border-radius: 5px;
 }
-.menu:hover {
-	opacity: 0.5;
-}
-.tennpo:hover {
-	opacity: 0.5;
-}
-.sa:hover {
-	color: red;
-}
-/* ========================================
-	  ここまでヘッダーボタン設定
-========================================= */
 
-    
+.header-btn ul li:first-child {
+  border-left: none;
+}
+
+
+
 /* ========================================
 	ここからmain
 ========================================= */
@@ -196,7 +185,7 @@ main {
 	background-image:url(https://i.gyazo.com/f8ca62ad419ab5d12b5cf51af27b7f34.jpg);
 	position: relative;
   }
-.h1-container {
+.h2-container {
 	width: 980px;
 	height: 40px;
 	background-image:url(https://i.gyazo.com/239bf60b826b7412ebee75160341579a.jpg);
@@ -204,7 +193,7 @@ main {
 	position: absolute;
 	top: 10px;
 }
-.h1-container h1{
+.h2-container h2{
 	font-size: 25px;
 	color: white;
 	margin-top: 8px;
@@ -257,50 +246,102 @@ dt {
 	display: inline-block;
   border-radius: 10px;
 }
+
+
 /* ========================================
-	ここまでmain
+	heade2-btn
 ========================================= */
+.header2-btn {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  margin: 0 auto;
+}
+.header2-btn ul {
+  width: 350px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+
+.header2-btn ul li{
+  margin-left: 50px;
+  float: left;
+}
+
+.header2-btn ul li a{
+  color: white;
+  font-size: 16px;
+  line-height:50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.header2-btn ul li a:hover {
+  text-decoration: underline;
+}
+
 
 
 /* ========================================
-	ここからfooter
+	ここからフッター
 ========================================= */
 
 footer {
-  width: 1000px;
+  width: 100%;
   height: 200px;
-  background-color: black;
+  background-color: white;
   margin: 0 auto;
+  background:url("images/footer.jpg");
 }
 .footer-container {
   width: 500px;
   height: 160px;
 	margin: 0 auto;
   padding-top: 40px;
+  position: relative;
 }
 
 .miyuki {
   font-size: 17px;
   letter-spacing: 2px;
-  color: white;
+  color: black;
   margin-bottom: 2px;
 }
 .niwase2 {
-  color: white;
+  color: black;
   font-size: 14px;
   float: left;
   letter-spacing: 2px;
   line-height: 18px;
 }
 .hirahuku2 {
-  color: white;
+  color: black;
   font-size: 14px;
   float: right;
   letter-spacing: 2px;
   line-height: 18px;
 }
 
-  
-/* ========================================
-	ここまでfooter
-========================================= */
+.pagetop a{
+  width: 100px;
+	height: 50px;
+	background-color: white;
+	text-align: center;
+	color: gray;
+	display: inline-block;
+	text-decoration: none;
+	line-height: 50px;
+	position: absolute;
+	top: -50px;
+  right: -250px;
+}
+
+
+.copy {
+	font-size: 12px;
+	padding-bottom: 10px;
+  color: black;
+  text-align: center;
+  background:url("images/footer.jpg");
+}
