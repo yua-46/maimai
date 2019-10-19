@@ -94,11 +94,38 @@ header nav ul li{
     line-height: 80px;
     padding-left: 20px;
 }
+.header-logo a{
+    color:white;
+    text-decoration: none;
+}
+.toukou{
+    font-size: 15px;
+    float: right;
+    line-height: 80px;
+    padding-right: 30px;
+}
+.toukou a{
+    text-decoration: none;
+    color: white;
+}
+
+.logout{
+    font-size: 15px;
+    float: right;
+    line-height: 80px;
+    padding-right: 50px;
+}
+.logout a{
+    text-decoration: none;
+    color: white;
+}
+
+
 .login{
     font-size: 15px;
     float: right;
     line-height: 80px;
-    padding-right: 20px;
+    padding-right: 30px;
 }
 .login a{
     text-decoration: none;
