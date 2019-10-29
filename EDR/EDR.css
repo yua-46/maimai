@@ -62,7 +62,7 @@ div#test {
 
 body {
 	width: 100%;
-	height: 100px;
+	height: 100%;
 	margin: 0 auto;
 }
 
@@ -84,53 +84,59 @@ header{
     position: fixed;
     color: white;
 }
-
+header nav{
+    text-align: center;
+      
+ }
+header nav ul{
+   
+    display: inline-block;
+    
+}
 header nav ul li{
     float:left;
 }
-.header-logo{
-    font-size: 25px;
-    float: left;
-    line-height: 80px;
-    padding-left: 20px;
-}
-.header-logo a{
+header nav ul li a{
     color:white;
     text-decoration: none;
+    line-height: 80px;
+}
+.header-logo{
+    font-size: 25px;
+    padding-left: 20px;
+    position:absolute;
+    left: 0;
+    line-height: 80px;
+}
+
+.header_middle{
+    font-size: 15px;
+}
+.header_middle a img {
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
 }
 .toukou{
     font-size: 15px;
-    float: right;
-    line-height: 80px;
-    padding-right: 30px;
-}
-.toukou a{
-    text-decoration: none;
-    color: white;
+    position:absolute;
+    right: 140px;
 }
 
 .logout{
     font-size: 15px;
-    float: right;
-    line-height: 80px;
-    padding-right: 50px;
+    position:absolute;
+    right: 30px;
 }
-.logout a{
-    text-decoration: none;
-    color: white;
-}
+
 
 
 .login{
     font-size: 15px;
-    float: right;
-    line-height: 80px;
-    padding-right: 30px;
+    position:absolute;
+    right: 30px;
 }
-.login a{
-    text-decoration: none;
-    color: white;
-}
+
 
 /*========================================
     setumei
@@ -141,10 +147,26 @@ header nav ul li{
     height:800px;
     background: url("images/setumei.jpg");
     padding-top: 80px;
-}
+}  
+
 .setumei-wrapper{
     margin: 200px auto;
 }
+#ookura {
+    width: 100%;
+    height: 50px;
+    background-color: green;
+    position: fixed;
+    top: 80px; 
+    display:none;  
+}
+#ookura p {
+    color:white;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+}
+
 h1{
     font-size: 70px;
     text-align: center;
@@ -185,26 +207,31 @@ h1{
 
 .kouka{
     width: 100%;
-    height:500px;
-    background:white;
+    height:100%;
+    background: white;
     font-size: 20px;
+    overflow: hidden;
 }
 .kouka_container {
     width: 500px;
     height: 300px;
-    padding-top: 120px;
+    padding-top: 100px;
     margin-left: 100px;
-    
     float:left;
 }
-.kouka img{
-    height: 350px;
-    width: auto;
-    float:right;
+.kouka_gazou {
+    width: 500px;
+    height: 300px;
+    padding-top: 50px;
     margin-right: 100px;
-    margin-top: 50px;
+    float:right;
 }
-    h2{
+.kouka_gazou img{
+    width: 500px;
+    height: 300px;
+    
+}
+h2{
     font-size: 25px;
     font-weight: bold;
 }
@@ -218,6 +245,36 @@ h1{
     height:500px;
     background: pink;
 }
+
+
+/*========================================
+   middle
+========================================= */
+
+
+#middle {
+    width: 100%;
+    height: 800px;
+    background-color: white;
+}
+#left {
+    width: 250px;
+    height: 300px;
+    background-color: #DDDDDD;
+    float: left;
+    margin-left: 150px;
+    margin-top: 150px;
+}
+#right {
+    width: 400px;
+    height: 150px;
+    background-color: #DDDDDD;
+    float: left;
+    margin-left: 150px;
+    margin-top: 150px;
+}
+
+
 
 /*========================================
     footer
@@ -336,4 +393,71 @@ h4{
 
 .inquiry_botton:hover{
 	opacity: 0.75;
+}
+/*========================================
+  投稿
+========================================= */
+form {
+    width: 600px;
+    height: 600px;
+    background: green;
+    font-size: 17px;
+    color: #DDDDDD;
+    padding-top: 80px;
+    margin: 0 auto;
+}
+
+td.form_title{
+    width: 131px;
+    height: 32px;
+    font-size: 15px;
+	color: #734339;
+}
+
+td.form_contents {
+    font-size: 13px;
+	color: #a6a6a6;
+}
+
+td.form_title label{
+    font-weight: bold;
+    vertical-align: top;
+}
+
+td.form_contents input#form_name,
+td.form_contents input#form_tel {
+    width: 421px;
+	height: 22px;
+}
+
+td.form_contents input.form_time {
+    width: 47px;
+    height: 22px;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+td.form_contents textarea {
+    width: 421px;
+	height: 83px;
+	border: 1px solid #a6a6a6;
+}
+
+p#submit {
+    text-align: right;
+}
+
+p#submit input {
+    background-color: #325a37;
+    border: none;
+    font-size: 18px;
+	color: #fff;
+    font-weight: bold;
+    width: 136px;
+	height: 40px;
+}
+
+p#submit input:hover {
+    cursor: pointer;
+    opacity: 0.8;
 }

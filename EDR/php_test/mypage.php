@@ -33,21 +33,33 @@
 
         </header>
         
-        <div id="middle">
-                <div id="left">
-                 
-                </div>
-                <div id="right">
+     <div id="middle">
+         <?php
+          session_start();
 
-                </div>
-        </div><!-- middle -->
+            require "twitteroauth-master/autoload.php";
+            use Abraham\TwitterOAuth\TwitterOAuth;
+    
+            require "index.php";
+    
+            #APIにアクセスするためのアクセストークンを用いて$connectionを作成
+            $connection = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET,$_SESSION['oauth_token'], $_SESSION['oauth_token_secret']);
+    
+            $user = $connection->get("account/verify_credentials");
+            echo "@" . $user -> screen_name;
+                                        
+                       
+                   
+          ?>
+
+        </div>
 
 
         <footer>
             <nav>
                 <ul>
                     <li class="edr">
-                        <a href="home.html">毎日Readingとは</a>
+                        <a href="home.php">毎日Readingとは</a>
                     </li>
                     <li class="service">
                         <a href="service.html">利用規約</a>

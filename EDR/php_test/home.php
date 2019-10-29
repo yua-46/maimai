@@ -28,14 +28,12 @@
             </nav>
 
         </header>
-        
- 
-        <div class="obi">
-            <p>あほ</p>
+      
+        <div id="ookura">
+            <p>ログアウトしました</p>
         </div> 
 
-
-        <div class="setumei"> 
+        <div class="setumei">
             <div class="setumei-wrapper">
                 <h1>ようこそ　毎日Readingへ</h1>
                 <p>毎日Readingとは、毎日の読書時間やページを記録することによって
@@ -51,7 +49,7 @@
         </div><!-- setumei -->
 
         <div class="kouka">
-            <div class="kouka_container cf">
+            <div class="kouka_container">
                 <h2>なぜ毎日本を読むと良いか</h2>
                 <nav>
                     <ul>
@@ -63,15 +61,14 @@
                 </nav>
                 
             </div>
-            <div class="kouka_gazou cf">
+            <div class="kouka_gazou">
                 <img src="images/jyouhou.jpg">
             </div>
         </div><!-- kouka -->
 
         <div class="tukaikata">
             <h3>使い方</h3>
-            <h4>ご飯</h4>
-            
+           
             <div id="twitter">
                 <a href="login.php" class="social-icon">
                     <i class="fab fa-twitter">  Twitterアカウントでログイン</i>   

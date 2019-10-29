@@ -15,39 +15,43 @@
             <nav>
                 <ul>
                     <li class="header-logo">
-                        <a href="mypage.html">毎日Reading</a>
-                    </li>
-                    <li class="header_middle">
-                        <a href="logout.php">
-                            <img src="images/whitebook.jpg">
-                        </a>
+                        <a href="mypage.php">毎日Reading</a>
                     </li>
                     <li class="logout">
                         <a href="logout.php">ログアウト</a>
                     </li>
                     <li class="toukou">
-                        <a href="mypage.html">投稿一覧</a>
+                        <a href="mypage.php">投稿一覧</a>
                     </li>
                 </ul>
             </nav>
-
         </header>
         
-        <div id="middle">
-                <div id="left">
-                 
-                </div>
-                <div id="right">
 
-                </div>
-        </div><!-- middle -->
+          
 
 
-        <footer>
+              <?php
+              session_start();
+
+              require "twitteroauth-master/autoload.php";
+              use Abraham\TwitterOAuth\TwitterOAuth;
+
+              require "index.php";
+
+              #APIにアクセスするためのアクセストークンを用いて$connectionを作成
+              $connection = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET,$_SESSION['oauth_token'], $_SESSION['oauth_token_secret']);
+
+              $user = $connection->get("account/verify_credentials");
+              echo "@" . $user -> screen_name;
+                
+              ?>
+              
+          <footer>
             <nav>
                 <ul>
                     <li class="edr">
-                        <a href="home.html">毎日Readingとは</a>
+                        <a href="home.php">毎日Readingとは</a>
                     </li>
                     <li class="service">
                         <a href="service.html">利用規約</a>
@@ -70,3 +74,5 @@
 
 
 </html>
+
+

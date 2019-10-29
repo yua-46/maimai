@@ -1,4 +1,5 @@
 <?php
+session_cache_limiter('none');
 session_start();
  
 header("Content-type: text/html; charset=utf-8");
@@ -14,5 +15,5 @@ if (isset($_COOKIE["PHPSESSID"])) {
 //セッションを破棄する
 session_destroy();
  
-header('Location: https://yua-46.github.io/maimai/EDR/home.html');
+header('Location: home.php');
 exit();

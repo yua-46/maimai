@@ -1,21 +1,21 @@
 <?php
 session_start();
 
-define("Consumer_Key", "WSgIwvugPCvbSXZE7xJqndpuS");
-define("Consumer_Secret", "FulDD8VSgF2qzWJhR0acvnc0NHxN3e8XYmHAmNiAHug58X0Ord");
-
-//Callback URL
-define('Callback', 'http://puramai.php.xdomain.jp/callback.php');
-
 //ライブラリを読み込む
 require "twitteroauth-master/autoload.php";
 use Abraham\TwitterOAuth\TwitterOAuth;
 
-//TwitterOAuthのインスタンスを生成し、Twitterからリクエストトークンを取得する
-$connection = new TwitterOAuth(Consumer_Key, Consumer_Secret);
-$request_token = $connection->oauth("oauth/request_token", array("oauth_callback" => Callback));
+//認証時に必要な設定の読み込み(initialize.php参照)
+require "index.php";
 
-//リクエストトークンはcallback.phpでも利用するのでセッションに保存する
+   
+//initialize.phpで入力した値を用いてTwitterに接続
+$connection = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET);
+   
+//認証URLを取得するためのリクエストトークンの生成
+$request_token = $connection->oauth('oauth/request_token', array('oauth_callback' => OAUTH_CALLBACK));
+
+//認証後にアクセストークンを取得するために、セッション関数にトークンを保存することでコールバック後にアクセス出来るようにする
 $_SESSION['oauth_token'] = $request_token['oauth_token'];
 $_SESSION['oauth_token_secret'] = $request_token['oauth_token_secret'];
 
