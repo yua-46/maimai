@@ -8,14 +8,14 @@
 <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 
 </head>
-
+<div class="toukou_form">
 <body>
     <div id="wrapper">
         <header>
             <nav>
                 <ul>
                     <li class="header-logo">
-                        <a href="mypage.html">毎日Reading</a>
+                        <a href="mypage.php">毎日Reading</a>
                     </li>
                     <li class="header_middle">
                         <a href="logout.php">
@@ -26,47 +26,68 @@
                         <a href="logout.php">ログアウト</a>
                     </li>
                     <li class="toukou">
-                        <a href="mypage.html">投稿一覧</a>
+                        <a href="mypage.php">投稿一覧</a>
                     </li>
                 </ul>
             </nav>
 
         </header>
 
-        <form>
-                <table>
-                    <tr>
-                        <td class="form_title">
-                            <label for="form_tel">時間
-                            </label>
-                        </td>
-                        <td class="form_contents">
-                            <input type="text" id="form_tel">
-                        </td>
-                    </tr>
+      
+        <form action="" method="post">
+                <div class="form_container" style="height: 400px;">
+                    <table>
+                        <tr>
+                            <td class="form_title">
+                                <label for="form_title">本の題名
+                                </label>
+                            </td>
+                            <td class="form_contents">
+                                <input type="text" name="title" id="form_booktitle" maxlength="30" style="height: 22px; width: 300px;"
+                                value="">
+                            </td>
+                     
+                        </tr>
     
-                    <tr>
-                        <td class="form_title">
-                            <label for="form_time">ページ</label>
-                        </td>
-                        <td class="form_contents">
-                            <input type="text" class="form_time">～
-                            <input type="text" class="form_time">ページ
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="form_title">
-                            <label for="form_textarea">コメント</label>
-                        </td>
-                        <td class="form_contents">
-                            <textarea id="form_textarea"></textarea>
-                        </td>
-                    </tr>
-                </table>
-                <p id="submit">
-                    <input type="submit" value="送信する">
-                </p>
+                        <tr>
+                            <td class="form_title">
+                                <label for="form_tel">時間
+                                </label>
+                            </td>
+                            <td class="form_contents">
+                                <input type="text" name="tel" id="form_tel" maxlength="3"
+                                value="">
+                                分
+                            </td>
+                     
+                        </tr>
+        
+                        <tr>
+                            <td class="form_title">
+                                <label for="form_page">ページ</label>
+                            </td>
+                            <td class="form_contents">
+                                <input type="text" name="page" class="form_page" maxlength="4" style="margin-bottom:30px;"  value="">～
+                                <input type="text" name="page" class="form_page" maxlength="4" value="">
+                                ページ
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="form_title">
+                                <label for="form_textarea">コメント</label>
+                            </td>
+                            <td class="form_contents">
+                                <textarea id="form_textarea" name="textarea" maxlength="255" style="width: 420px; height: 83px;"
+                                value=""></textarea>
+                            </td>
+                        </tr>
+                    </table>
+                    <p id="submit">
+                        <input type="submit" value="投稿">
+                    </p>
+                </div><!-- form_container -->
             </form>
+        
     
 
 
@@ -78,6 +99,6 @@
         
     </div>
 </body>
-
+</div><!-- toukou_form -->
 
 </html>

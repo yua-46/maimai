@@ -1,3 +1,14 @@
+<?php
+    session_start();
+    //ログアウトの場合のみ下記は実行
+    $_SESSION = array();
+    if (isset($_COOKIE["PHPSESSID"])) {
+    setcookie("PHPSESSID", '', time() - 1800, '/');
+    }
+    session_destroy();
+    $message = "ログアウトしました。";
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -29,8 +40,13 @@
 
         </header>
       
-        <div id="ookura">
-            <p>ログアウトしました</p>
+        <div id="display">
+
+        <?php
+        
+        echo "<p>$message</p>";
+
+        ?>
         </div> 
 
         <div class="setumei">
@@ -98,8 +114,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="EDR.js"></script>
 </body>
 
